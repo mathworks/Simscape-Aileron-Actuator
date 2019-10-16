@@ -6,7 +6,7 @@
    <!--
 This HTML was auto-generated from MATLAB code.
 To make changes, update the MATLAB code and republish this document.
-      --><title>Aileron Actuator Demo Script</title><meta name="generator" content="MATLAB 9.6"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2019-03-05"><meta name="DC.source" content="sm_aileron_actuator_Demo_Script.m"><style type="text/css">
+      --><title>Aileron Actuator Demo Script</title><meta name="generator" content="MATLAB 9.7"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2019-08-20"><meta name="DC.source" content="sm_aileron_actuator_Demo_Script.m"><style type="text/css">
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
 
 html { min-height:100%; margin-bottom:1px; }
@@ -77,9 +77,9 @@ table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px soli
 <tr>5.  Model Mechanical System: <a href="matlab:open_system('sm_aileron_actuator_mech_lib');smnew;set_param([bdroot '/Mechanism Configuration'],'GravityVector','[0 -9.81 0]');aileronAssembly_DataFile;">From Scratch</a>, <a href="matlab:open_system('sm_aileron_actuator_mech_01_ail');">Mechanical System</a>, <a href="matlab:open_system('sm_aileron_actuator_mech_02_drive');">With Ideal Actuator</a><br>
 <tr>6.  Model Electromechanical Actuator: <a href="matlab:open_system('sm_aileron_actuator_mech_lib');ssc_new;">From Scratch</a>, <a href="matlab:open_system('sm_aileron_actuator_electric_1_drive');">Electric Actuator</a>, <a href="matlab:open_system('sm_aileron_actuator_electric_2_mech');">With Aileron</a><br>
 <tr>7.  Estimating Parameters:<br>
-<tr>....a. <a href="matlab:cd([AAC_HomeDir '/Param_Est/Elec']);open_system('Motor_Param_Est');">Electric Motor</a><br>
-<tr>....b. <a href="matlab:cd([AAC_HomeDir '/Param_Est/Hydr']);open_system('Hydraulic_System_Param_Est');">Hydraulic System</a><br>
-<tr>8.  <a href="matlab:cd([AAC_HomeDir '/Custom_Resistor']);open_system('Custom_Analog_Filter');">Customize Component</a><br>
+<tr>....a. <a href="matlab:cd(fileparts(which('Motor_Param_Est.slx')));open_system('Motor_Param_Est');">Electric Motor</a><br>
+<tr>....b. <a href="matlab:cd(fileparts(which('Hydraulic_System_Param_Est.slx')));open_system('Hydraulic_System_Param_Est');">Hydraulic System</a><br>
+<tr>8.  <a href="matlab:cd(fileparts(which('Custom_Analog_Filter.slx')));open_system('Custom_Analog_Filter');">Customize Component</a><br>
 <br>
 <tr><b><u>Simulate</u></b><br>
 <tr>9.  <a href="matlab:sm_aileron_actuator_plot2hydrelec;">Test Electrical and Hydraulic Designs</a>, (<a href="matlab:edit sm_aileron_actuator_plot2hydrelec;">see code</a>)<br>
@@ -87,17 +87,17 @@ table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px soli
 <tr>11. Assess Implementation Effects<br>
 <tr>....a. <a href="matlab:sm_aileron_actuator_plot3ctrlcirc;">Compare Abstract and Circuit Controllers</a>, (<a href="matlab:edit sm_aileron_actuator_plot3ctrlcirc;">see code</a>)<br>
 <tr>....b. <a href="matlab:sm_aileron_actuator_plot4ctrlcircavgpwm;">Compare Average and PWM Modes</a>, (<a href="matlab:edit sm_aileron_actuator_plot4ctrlcircavgpwm;">see code</a>)<br>
-<tr>12. <a href="matlab:cd([AAC_HomeDir '/PCT']);edit sm_aileron_actuator_PCT_Sim;">Distribute Simulations Using Parallel Computing</a><br>
+<tr>12. <a href="matlab:cd(fileparts(which('sm_aileron_actuator_PCT_Sim.m')));edit sm_aileron_actuator_PCT_Sim;">Distribute Simulations Using Parallel Computing</a><br>
 <br>
 <tr><b><u>Deploy</u></b><br>
 <tr>13. Real-Time Simulation</a><br>
-<tr>....a. <a href="matlab:cd([AAC_HomeDir '/Local_Solver']);edit sm_aileron_actuator_SLRT_elec">Electric Actuator</a><br>
-<tr>....b. <a href="matlab:cd([AAC_HomeDir '/Local_Solver']);edit sm_aileron_actuator_SLRT_hydr">Hydraulic Actuator</a><br>
-<tr>14. <a href="matlab:cd([AAC_HomeDir '/IP_Protect']);edit sm_aileron_actuator_IP_Protect">Protect IP To Share Model</a>, <a href="matlab:cd([AAC_HomeDir '/IP_Protect/Finish']);sm_aileron_actuator_open_system('sm_aileron_actuator_protected');">Open Protected Model</a><br>
+<tr>....a. <a href="matlab:cd(fileparts(which('sm_aileron_actuator_SLRT_elec.m')));edit sm_aileron_actuator_SLRT_elec">Electric Actuator</a><br>
+<tr>....b. <a href="matlab:cd(fileparts(which('sm_aileron_actuator_SLRT_hydr.m')));edit sm_aileron_actuator_SLRT_hydr">Hydraulic Actuator</a><br>
+<tr>14. <a href="matlab:cd(fileparts(which('sm_aileron_actuator_IP_Protect.m')));edit sm_aileron_actuator_IP_Protect">Protect IP To Share Model</a>, <a href="matlab:cd(fileparts(which('sm_aileron_actuator_IP_Protect.m')));cd('Finish');sm_aileron_actuator_open_system('sm_aileron_actuator_protected');">Open Protected Model</a><br>
 </style>
 </style>
 </p><pre class="codeinput"><span class="comment">% Copyright 2012-2019 The MathWorks(TM), Inc.</span>
-</pre><p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2019a</a><br></p></div><!--
+</pre><p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2019b</a><br></p></div><!--
 ##### SOURCE BEGIN #####
 %% Aileron Actuator Demo Script
 %
@@ -112,9 +112,9 @@ table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px soli
 % <tr>5.  Model Mechanical System: <a href="matlab:open_system('sm_aileron_actuator_mech_lib');smnew;set_param([bdroot '/Mechanism Configuration'],'GravityVector','[0 -9.81 0]');aileronAssembly_DataFile;">From Scratch</a>, <a href="matlab:open_system('sm_aileron_actuator_mech_01_ail');">Mechanical System</a>, <a href="matlab:open_system('sm_aileron_actuator_mech_02_drive');">With Ideal Actuator</a><br>
 % <tr>6.  Model Electromechanical Actuator: <a href="matlab:open_system('sm_aileron_actuator_mech_lib');ssc_new;">From Scratch</a>, <a href="matlab:open_system('sm_aileron_actuator_electric_1_drive');">Electric Actuator</a>, <a href="matlab:open_system('sm_aileron_actuator_electric_2_mech');">With Aileron</a><br>
 % <tr>7.  Estimating Parameters:<br>
-% <tr>....a. <a href="matlab:cd([AAC_HomeDir '/Param_Est/Elec']);open_system('Motor_Param_Est');">Electric Motor</a><br>
-% <tr>....b. <a href="matlab:cd([AAC_HomeDir '/Param_Est/Hydr']);open_system('Hydraulic_System_Param_Est');">Hydraulic System</a><br>
-% <tr>8.  <a href="matlab:cd([AAC_HomeDir '/Custom_Resistor']);open_system('Custom_Analog_Filter');">Customize Component</a><br>
+% <tr>....a. <a href="matlab:cd(fileparts(which('Motor_Param_Est.slx')));open_system('Motor_Param_Est');">Electric Motor</a><br>
+% <tr>....b. <a href="matlab:cd(fileparts(which('Hydraulic_System_Param_Est.slx')));open_system('Hydraulic_System_Param_Est');">Hydraulic System</a><br>
+% <tr>8.  <a href="matlab:cd(fileparts(which('Custom_Analog_Filter.slx')));open_system('Custom_Analog_Filter');">Customize Component</a><br>
 % <br>
 % <tr><b><u>Simulate</u></b><br>
 % <tr>9.  <a href="matlab:sm_aileron_actuator_plot2hydrelec;">Test Electrical and Hydraulic Designs</a>, (<a href="matlab:edit sm_aileron_actuator_plot2hydrelec;">see code</a>)<br>
@@ -122,13 +122,13 @@ table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px soli
 % <tr>11. Assess Implementation Effects<br>
 % <tr>....a. <a href="matlab:sm_aileron_actuator_plot3ctrlcirc;">Compare Abstract and Circuit Controllers</a>, (<a href="matlab:edit sm_aileron_actuator_plot3ctrlcirc;">see code</a>)<br>
 % <tr>....b. <a href="matlab:sm_aileron_actuator_plot4ctrlcircavgpwm;">Compare Average and PWM Modes</a>, (<a href="matlab:edit sm_aileron_actuator_plot4ctrlcircavgpwm;">see code</a>)<br>
-% <tr>12. <a href="matlab:cd([AAC_HomeDir '/PCT']);edit sm_aileron_actuator_PCT_Sim;">Distribute Simulations Using Parallel Computing</a><br>
+% <tr>12. <a href="matlab:cd(fileparts(which('sm_aileron_actuator_PCT_Sim.m')));edit sm_aileron_actuator_PCT_Sim;">Distribute Simulations Using Parallel Computing</a><br>
 % <br>
 % <tr><b><u>Deploy</u></b><br>
 % <tr>13. Real-Time Simulation</a><br>
-% <tr>....a. <a href="matlab:cd([AAC_HomeDir '/Local_Solver']);edit sm_aileron_actuator_SLRT_elec">Electric Actuator</a><br>
-% <tr>....b. <a href="matlab:cd([AAC_HomeDir '/Local_Solver']);edit sm_aileron_actuator_SLRT_hydr">Hydraulic Actuator</a><br>
-% <tr>14. <a href="matlab:cd([AAC_HomeDir '/IP_Protect']);edit sm_aileron_actuator_IP_Protect">Protect IP To Share Model</a>, <a href="matlab:cd([AAC_HomeDir '/IP_Protect/Finish']);sm_aileron_actuator_open_system('sm_aileron_actuator_protected');">Open Protected Model</a><br>
+% <tr>....a. <a href="matlab:cd(fileparts(which('sm_aileron_actuator_SLRT_elec.m')));edit sm_aileron_actuator_SLRT_elec">Electric Actuator</a><br>
+% <tr>....b. <a href="matlab:cd(fileparts(which('sm_aileron_actuator_SLRT_hydr.m')));edit sm_aileron_actuator_SLRT_hydr">Hydraulic Actuator</a><br>
+% <tr>14. <a href="matlab:cd(fileparts(which('sm_aileron_actuator_IP_Protect.m')));edit sm_aileron_actuator_IP_Protect">Protect IP To Share Model</a>, <a href="matlab:cd(fileparts(which('sm_aileron_actuator_IP_Protect.m')));cd('Finish');sm_aileron_actuator_open_system('sm_aileron_actuator_protected');">Open Protected Model</a><br>
 % </style>
 % </style>
 % </html>
