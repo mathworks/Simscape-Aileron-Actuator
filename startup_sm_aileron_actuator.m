@@ -1,4 +1,4 @@
-% Copyright 2018 The MathWorks, Inc.
+% Copyright 2018-2019 The MathWorks, Inc.
 
 AAC_HomeDir = pwd;
 

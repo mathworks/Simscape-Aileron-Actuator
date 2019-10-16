@@ -4,7 +4,7 @@
 % The plot below shows the actuator force required to follow the desired
 % trajectory.
 %
-% Copyright 2018 The MathWorks, Inc.
+% Copyright 2018-2019 The MathWorks, Inc.
 
 % Generate simulation results using the Motion variant
 set_param([bdroot '/Actuator'],'OverrideUsingVariant','Motion');

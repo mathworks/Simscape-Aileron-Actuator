@@ -1,5 +1,5 @@
 function sm_aileron_actuator_configModel(modelname,config_name)
-% Copyright 2012-2018 The MathWorks(TM), Inc.
+% Copyright 2012-2019 The MathWorks(TM), Inc.
 
 actuate_path = char(find_system(modelname,'FollowLinks','on','Name','Actuator'));
 econtrl_path = find_system(modelname,'FollowLinks','on','regexp','on','Variants','AllVariants','Name','Leadscrew.*');

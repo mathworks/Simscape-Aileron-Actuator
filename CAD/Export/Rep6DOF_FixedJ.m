@@ -1,3 +1,5 @@
+% Copyright 2018-2019 The MathWorks, Inc.
+
 mdl = 'aileronAssembly';
 sixdofPth = find_system(mdl,'ReferenceBlock','sm_lib/Joints/6-DOF Joint');
 

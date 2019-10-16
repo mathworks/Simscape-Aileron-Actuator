@@ -8,7 +8,7 @@
 % The hydraulic variant is described here, and the electric variant is
 % described <matlab:web('sm_aileron_actuator_electric.html'); here>.
 %
-% Copyright 2018 The MathWorks, Inc.
+% Copyright 2018-2019 The MathWorks, Inc.
 
 
 

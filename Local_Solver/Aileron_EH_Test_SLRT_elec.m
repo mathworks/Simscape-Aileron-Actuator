@@ -109,4 +109,4 @@ legend({'Reference','Fixed-Step','Real-Time','Modified'},'Location','NorthEast')
 %% CLEAN UP DIRECTORY
 cleanup_rt_test
 
-% Copyright 2013-2018 The MathWorks(TM), Inc.
+% Copyright 2013-2019 The MathWorks(TM), Inc.

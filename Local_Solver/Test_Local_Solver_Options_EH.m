@@ -115,5 +115,5 @@ leg_h = legend(LegendText,'Location','South','FontSize',10);
 axis([0 time_ls(end) -10 20]);
 
 colordef white;
-% Copyright 2012-2018 The MathWorks(TM), Inc.
+% Copyright 2012-2019 The MathWorks(TM), Inc.
 
