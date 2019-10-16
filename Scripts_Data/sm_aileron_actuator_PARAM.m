@@ -40,11 +40,15 @@ AAC_Param.AilBrk.LRManual4Vis = 1e-5;
 Kp = 0.3;
 Ki = 0.3;
 
+Ki_scaling_elec = 1;
+
 % Optimized Values ELECTRIC
-%Kp = 0.6210
-%Ki = 0.2986
+%Kp = 0.6526
+%Ki = 0.4933
 
-
+% Optimized Values HYDRAULIC
+%Kp = 0.3370
+%Ki = 0.3935
 
 hydr_supply_pressure        = 2.0e6; % Pa
 

@@ -1,7 +1,7 @@
 function solverBlock_pth = sm_aileron_actuator_setsolver(mdl,deskreal)
 % Copyright 2011-2018 The MathWorks, Inc.
 
-desktop_solver = 'ode23t';
+desktop_solver = 'ode15s';
 
 realtime_nonlinIter = '3';
 realtime_stepSize = '0.001';

@@ -6,7 +6,7 @@
    <!--
 This HTML was auto-generated from MATLAB code.
 To make changes, update the MATLAB code and republish this document.
-      --><title>Aileron Actuator Demo Script</title><meta name="generator" content="MATLAB 9.4"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2018-09-24"><meta name="DC.source" content="sm_aileron_actuator_Demo_Script.m"><style type="text/css">
+      --><title>Aileron Actuator Demo Script</title><meta name="generator" content="MATLAB 9.5"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2018-09-24"><meta name="DC.source" content="sm_aileron_actuator_Demo_Script.m"><style type="text/css">
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
 
 html { min-height:100%; margin-bottom:1px; }
@@ -83,8 +83,10 @@ table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px soli
 <br>
 <tr><b><u>Simulate</u></b><br>
 <tr>9.  <a href="matlab:sm_aileron_actuator_plot2hydrelec;">Test Electrical and Hydraulic Designs</a>, (<a href="matlab:edit sm_aileron_actuator_plot2hydrelec;">see code</a>)<br>
-<tr>10.  <a href="matlab:open_system('sm_aileron_actuator');sm_aileron_actuator_resp_opt_hydr;">Optimize System Performance (Electric or Hydraulic)</a>, (<a href="matlab:edit sm_aileron_actuator_resp_opt_hydr;">see code</a>)<br>
-<tr>11. <a href="matlab:sm_aileron_actuator_plot3ctrlcirc;">Assess Implementation Effects</a><br>
+<tr>10.  <a href="matlab:open_system('sm_aileron_actuator');sm_aileron_actuator_resp_opt;">Optimize System Performance (Electric or Hydraulic)</a>, (<a href="matlab:edit sm_aileron_actuator_resp_opt;">see code</a>)<br>
+<tr>11. Assess Implementation Effects<br>
+<tr>....a. <a href="matlab:sm_aileron_actuator_plot3ctrlcirc;">Compare Abstract and Circuit Controllers</a>, (<a href="matlab:edit sm_aileron_actuator_plot3ctrlcirc;">see code</a>)<br>
+<tr>....b. <a href="matlab:sm_aileron_actuator_plot4ctrlcircavgpwm;">Compare Average and PWM Modes</a>, (<a href="matlab:edit sm_aileron_actuator_plot4ctrlcircavgpwm;">see code</a>)<br>
 <tr>12. <a href="matlab:cd([AAC_HomeDir '/PCT']);edit sm_aileron_actuator_PCT_Sim;">Distribute Simulations Using Parallel Computing</a><br>
 <br>
 <tr><b><u>Deploy</u></b><br>
@@ -95,7 +97,7 @@ table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px soli
 </style>
 </style>
 </p><pre class="codeinput"><span class="comment">% Copyright 2012-2018 The MathWorks(TM), Inc.</span>
-</pre><p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2018a</a><br></p></div><!--
+</pre><p class="footer"><br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2018b</a><br></p></div><!--
 ##### SOURCE BEGIN #####
 %% Aileron Actuator Demo Script
 %
@@ -116,8 +118,10 @@ table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px soli
 % <br>
 % <tr><b><u>Simulate</u></b><br>
 % <tr>9.  <a href="matlab:sm_aileron_actuator_plot2hydrelec;">Test Electrical and Hydraulic Designs</a>, (<a href="matlab:edit sm_aileron_actuator_plot2hydrelec;">see code</a>)<br>
-% <tr>10.  <a href="matlab:open_system('sm_aileron_actuator');sm_aileron_actuator_resp_opt_hydr;">Optimize System Performance (Electric or Hydraulic)</a>, (<a href="matlab:edit sm_aileron_actuator_resp_opt_hydr;">see code</a>)<br>
-% <tr>11. <a href="matlab:sm_aileron_actuator_plot3ctrlcirc;">Assess Implementation Effects</a><br>
+% <tr>10.  <a href="matlab:open_system('sm_aileron_actuator');sm_aileron_actuator_resp_opt;">Optimize System Performance (Electric or Hydraulic)</a>, (<a href="matlab:edit sm_aileron_actuator_resp_opt;">see code</a>)<br>
+% <tr>11. Assess Implementation Effects<br>
+% <tr>....a. <a href="matlab:sm_aileron_actuator_plot3ctrlcirc;">Compare Abstract and Circuit Controllers</a>, (<a href="matlab:edit sm_aileron_actuator_plot3ctrlcirc;">see code</a>)<br>
+% <tr>....b. <a href="matlab:sm_aileron_actuator_plot4ctrlcircavgpwm;">Compare Average and PWM Modes</a>, (<a href="matlab:edit sm_aileron_actuator_plot4ctrlcircavgpwm;">see code</a>)<br>
 % <tr>12. <a href="matlab:cd([AAC_HomeDir '/PCT']);edit sm_aileron_actuator_PCT_Sim;">Distribute Simulations Using Parallel Computing</a><br>
 % <br>
 % <tr><b><u>Deploy</u></b><br>
