@@ -16,8 +16,8 @@ end
 
 set_param(mdl,'SimMechanicsOpenEditorOnUpdate','off');
 save_system(mdl)
-%simOut  = sim(simInput,'ShowProgress','on','UseFastRestart','on');
-simOut = parsim(simInput,'ShowProgress','on','UseFastRestart','on','TransferBaseWorkspaceVariables','on');
+simOut  = sim(simInput,'ShowProgress','on','UseFastRestart','on');
+%simOut = parsim(simInput,'ShowProgress','on','UseFastRestart','on','TransferBaseWorkspaceVariables','on');
 set_param(mdl,'SimMechanicsOpenEditorOnUpdate','on');
 save_system(mdl)
 

@@ -12,14 +12,12 @@ if ~exist('h3_sm_aileron_actuator', 'var') || ...
     h3_sm_aileron_actuator = figure('Name', 'sm_aileron_actuator');
 end
 figure(h3_sm_aileron_actuator)
-temp_colororder = get(gca,'defaultAxesColorOrder');
 clf(h3_sm_aileron_actuator)
 
+temp_colororder = get(gca,'defaultAxesColorOrder');
 
 config_set = {'E SL Avg','E Cir Avg'};
 modelname = 'sm_aileron_actuator';
-
-open_system([modelname '/Actuator/Electric']);
 
 for i=1:length(config_set)
     sm_aileron_actuator_configModel(modelname,config_set{i})

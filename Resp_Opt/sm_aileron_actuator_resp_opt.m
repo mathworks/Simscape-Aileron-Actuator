@@ -1,8 +1,8 @@
 % Copyright 2013-2018 The MathWorks(TM), Inc.
 
 % Initial values
-Kp = 0.03;
-Ki = 0.03;
+Kp = 0.05;
+Ki = 0.3;
 
 % Configure model
 set_param('sm_aileron_actuator','FastRestart','on');

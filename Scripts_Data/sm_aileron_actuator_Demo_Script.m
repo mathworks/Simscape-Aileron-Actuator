@@ -17,10 +17,8 @@
 % <br>
 % <tr><b><u>Simulate</u></b><br>
 % <tr>9.  <a href="matlab:sm_aileron_actuator_plot2hydrelec;">Test Electrical and Hydraulic Designs</a>, (<a href="matlab:edit sm_aileron_actuator_plot2hydrelec;">see code</a>)<br>
-% <tr>10.  <a href="matlab:open_system('sm_aileron_actuator');sm_aileron_actuator_resp_opt;">Optimize System Performance (Electric or Hydraulic)</a>, (<a href="matlab:edit sm_aileron_actuator_resp_opt;">see code</a>)<br>
-% <tr>11. Assess Implementation Effects<br>
-% <tr>....a. <a href="matlab:sm_aileron_actuator_plot3ctrlcirc;">Compare Abstract and Circuit Controllers</a>, (<a href="matlab:edit sm_aileron_actuator_plot3ctrlcirc;">see code</a>)<br>
-% <tr>....b. <a href="matlab:sm_aileron_actuator_plot4ctrlcircavgpwm;">Compare Average and PWM Modes</a>, (<a href="matlab:edit sm_aileron_actuator_plot4ctrlcircavgpwm;">see code</a>)<br>
+% <tr>10.  <a href="matlab:open_system('sm_aileron_actuator');sm_aileron_actuator_resp_opt_hydr;">Optimize System Performance (Electric or Hydraulic)</a>, (<a href="matlab:edit sm_aileron_actuator_resp_opt_hydr;">see code</a>)<br>
+% <tr>11. <a href="matlab:sm_aileron_actuator_plot3ctrlcirc;">Assess Implementation Effects</a><br>
 % <tr>12. <a href="matlab:cd([AAC_HomeDir '/PCT']);edit sm_aileron_actuator_PCT_Sim;">Distribute Simulations Using Parallel Computing</a><br>
 % <br>
 % <tr><b><u>Deploy</u></b><br>
