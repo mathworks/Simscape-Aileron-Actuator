@@ -1,5 +1,5 @@
 function sn_motor_params_setparams(initialtuned)
-% Copyright 2012-2019 The MathWorks(TM), Inc.
+% Copyright 2012-2020 The MathWorks(TM), Inc.
 
 if (strcmp(initialtuned,'Initial'))
     evalin('base','DC_Motor_R = 3;');

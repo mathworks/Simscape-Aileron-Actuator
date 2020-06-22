@@ -1,5 +1,5 @@
 Aileron Actuation System
-Copyright 2013-2019 The MathWorks(TM), Inc.
+Copyright 2013-2020 The MathWorks(TM), Inc.
 
 Models an aileron actuation system with multiple variants for the actuator. 
 This model allows you to refine requirements for the actuation system

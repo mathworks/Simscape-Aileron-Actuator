@@ -1,5 +1,5 @@
 function sm_aileron_actuator_screwsOnOff(modelname,onOff)
-% Copyright 2018-2019 The MathWorks, Inc.
+% Copyright 2018-2020 The MathWorks, Inc.
 
 screws_sub_h = find_system(modelname,'regexp','on','IncludeCommented','on','LookUnderMasks','on','BlockType','SubSystem','Name','Screws.*');
 
