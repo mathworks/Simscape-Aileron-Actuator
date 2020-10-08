@@ -15,10 +15,6 @@ for i=1:size(rtw_dirs,1)
 end
 bdclose all
 delete('*.mex*')
-!rmdir slprj /S/Q
 
 delete([mdl '.slx']);
 delete([mdl '.slmx']);
-delete([mdl 'ri.m']);
-delete([mdl 'xcp.m']);
-delete([mdl '.slxc']);

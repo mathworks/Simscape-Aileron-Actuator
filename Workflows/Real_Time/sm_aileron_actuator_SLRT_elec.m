@@ -9,7 +9,6 @@ save_system(orig_mdl,mdl);
 sm_aileron_actuator_configRTParams(mdl,variant);
 set_param(mdl,'SimscapeLogType','none');
 set_param(mdl,'SaveFormat','StructureWithTime');
-set_param('sm_aileron_actuator_rttest_temp/SLRT Scope','Commented','off');
 
 %% Get reference results
 sm_aileron_actuator_setsolver(mdl,'desktop');
@@ -50,61 +49,64 @@ tune_bpth = [mdl '/Actuator/Electric/Leadscrew 1/Bearing Friction'];
 open_system(get_param(tune_bpth,'Parent'),'force')
 set_param(tune_bpth,'Selected','on');
 
-%% Build and download to real-time target
-% Set codegen target to slrt.tlc
+%% Build application
+% Choose target
+cs = getActiveConfigSet(mdl);
+cs.switchTarget('slrealtime.tlc',[]);
+
 set_param(mdl,'SimMechanicsOpenEditorOnUpdate','off');
 slbuild(mdl);
 
-%% Set simulation mode to External
-set_param(mdl,'SimulationMode','External');
+%% Download to real-time target
+tg = slrealtime;
+tg.connect;
 
-%% Connect to target and run
-set_param(mdl, 'SimulationCommand', 'connect')
-set_param(mdl, 'SimulationCommand', 'start')
+%% Run application
+tg.load(mdl)
+tg.start('ReloadOnStop',true,'ExportToBaseWorkspace',true)
 
 open_system(mdl);
 disp('Waiting for SLRT to finish...');
 pause(1);
-disp(get_param(bdroot,'SimulationStatus'));
-while(~strcmp(get_param(bdroot,'SimulationStatus'),'stopped'))
+while(strcmp(tg.status,'running'))
     pause(2);
-    disp(get_param(bdroot,'SimulationStatus'));
+    disp(tg.status);
 end
 pause(2);
 
-t_slrt1 = tg.TimeLog; y_slrt1 = tg.OutputLog;
+%% Extract results from logged data in Simulink Data Inspector
+y_slrt1 = logsout_sm_aileron_actuator.LiveStreamSignals.get('qMeas');
 
 %% Plot reference and real-time results
 figure(1)
 hold on
-h3=stairs(t_slrt1,y_slrt1,'c:','LineWidth',2.5);
+h3=stairs(y_slrt1.Values.Time,y_slrt1.Values.Data,'c:','LineWidth',2.5);
 hold off
 legend({'Reference','Fixed-Step','Real-Time'},'Location','North');
 
-%% Modify area to model blocked hydraulic line
-motorFriction_id = getparamid(tg, '','motor_friction');
-disp(['Motor Bearing Friction (current) = ' num2str(getparam(tg,motorFriction_id))]);
-setparam(tg,motorFriction_id,0.001);
-disp(['Motor Bearing Friction (new)     = ' num2str(getparam(tg,motorFriction_id))]);
+%% Modify area to model increased motor friction
+disp(['Motor Bearing Friction (current) = ' num2str(getparam(tg,'','motor_friction'))]);
+setparam(tg,'','motor_friction',0.001)
+disp(['Motor Bearing Friction (new) = ' num2str(getparam(tg,'','motor_friction'))]);
 
 %% Run simulation with new parameter value
-start(tg);
+tg.start('ReloadOnStop',true,'ExportToBaseWorkspace',true)
 
 disp('Waiting for Simulink Real-Time to finish...');
 pause(1);
-disp(tg.Status);
-while(~strcmp(tg.Status,'stopped'))
+while(strcmp(tg.status,'running'))
     pause(2);
-    disp(tg.Status);
+    disp(tg.status);
 end
 pause(2);
 
-t_slrt2 = tg.TimeLog; y_slrt2 = tg.OutputLog;
+%% Extract results from logged data in Simulink Data Inspector
+y_slrt2 = logsout_sm_aileron_actuator.LiveStreamSignals.get('qMeas');
 
 %% Plot results of altered motor friction test
 figure(1)
 hold on
-stairs(t_slrt2,y_slrt2,'Color',temp_colororder(4,:),'LineWidth',2);
+stairs(y_slrt2.Values.Time,y_slrt2.Values.Data,'Color',temp_colororder(4,:),'LineWidth',2);
 hold off
 legend({'Reference','Fixed-Step','Real-Time','Modified'},'Location','North');
 
