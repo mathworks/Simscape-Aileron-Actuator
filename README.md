@@ -1,6 +1,8 @@
 # **Aileron Actuation System**
 Copyright 2013-2020 The MathWorks(TM), Inc.
 
+[![View Aileron Model in Simscape on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://www.mathworks.com/matlabcentral/fileexchange/38249-aileron-model-in-simscape)
+
 Models an aileron actuation system with multiple variants for the actuator. 
 This model allows you to refine requirements for the actuation system
 independent of actuation technology, and then to test various actuator
