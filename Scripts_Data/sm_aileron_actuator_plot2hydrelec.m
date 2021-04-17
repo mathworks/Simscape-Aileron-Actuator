@@ -4,7 +4,7 @@
 % The plots below compare the performance of the hydraulic and electric
 % designs with the desired performance.
 %
-% Copyright 2018-2020 The MathWorks, Inc.
+% Copyright 2018-2021 The MathWorks, Inc.
 
 % Reuse figure if it exists, else create new figure
 if ~exist('h2_sm_aileron_actuator', 'var') || ...

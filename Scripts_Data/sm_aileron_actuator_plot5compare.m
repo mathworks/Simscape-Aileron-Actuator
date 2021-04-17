@@ -3,7 +3,7 @@
 %
 % <enter plot description here if desired>
 %
-% Copyright 2018-2020 The MathWorks, Inc.
+% Copyright 2018-2021 The MathWorks, Inc.
 
 % Reuse figure if it exists, else create new figure
 if ~exist('h5_sm_aileron_actuator', 'var') || ...
