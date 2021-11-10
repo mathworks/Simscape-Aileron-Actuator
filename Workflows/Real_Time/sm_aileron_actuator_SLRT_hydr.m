@@ -75,7 +75,7 @@ end
 pause(2);
 
 %% Extract results from logged data in Simulink Data Inspector
-y_slrt1 = logsout_sm_aileron_actuator.LiveStreamSignals.get('qMeas');
+y_slrt1 = logsout_sm_aileron_actuator.getElement('qMeas');
 
 %% Plot reference and real-time results
 figure(1)
@@ -102,7 +102,7 @@ end
 pause(2);
 
 %% Extract results from logged data in Simulink Data Inspector
-y_slrt2 = logsout_sm_aileron_actuator.LiveStreamSignals.get('qMeas');
+y_slrt1 = logsout_sm_aileron_actuator.getElement('qMeas');
 
 %% Plot results of blocked line test
 figure(1)
