@@ -1,5 +1,5 @@
 function sm_aileron_actuator_open_system(filename)
-% Copyright 2016-2021 The MathWorks, Inc.
+% Copyright 2016-2022 The MathWorks, Inc.
 
 if (exist(filename))
     open_system(filename)
