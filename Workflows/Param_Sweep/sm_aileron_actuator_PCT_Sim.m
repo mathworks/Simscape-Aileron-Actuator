@@ -59,7 +59,7 @@ delete(gcp);
 %% Cleanup directory
 bdclose(mdl);
 delete([mdl '.slx']);
-delete([mdl '.slmx']);
+delete([mdl '*.slmx']);
 
 %%  Plot function
 function plot_sim_res(simOut,annotation_str,elapsed_time)

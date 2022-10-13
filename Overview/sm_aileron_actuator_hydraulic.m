@@ -16,7 +16,7 @@
 
 open_system('sm_aileron_actuator')
 
-set_param(find_system('sm_aileron_actuator','FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
+set_param(find_system('sm_aileron_actuator','MatchFilter',@Simulink.match.allVariants,'FindAll', 'on','type','annotation','Tag','ModelFeatures'),'Interpreter','off')
 
 %% Mechanical Subsystem
 %

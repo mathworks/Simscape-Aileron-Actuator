@@ -1,8 +1,9 @@
 function sm_aileron_actuator_configModel(modelname,config_name)
 % Copyright 2012-2022 The MathWorks(TM), Inc.
 
-actuate_path = char(find_system(modelname,'FollowLinks','on','Name','Actuator'));
-econtrl_path = find_system(modelname,'FollowLinks','on','regexp','on','Variants','AllVariants','Name','Leadscrew.*');
+f    = Simulink.FindOptions('FollowLinks',1,'LookUnderMasks','none');
+actuate_path = getfullname(Simulink.findBlocks(bdroot,'Name','Actuator',f));
+econtrl_path = find_system(modelname,'FollowLinks','on','regexp','on','MatchFilter',@Simulink.match.allVariants,'Name','Leadscrew.*');
 
 switch config_name
     case 'Motion'
