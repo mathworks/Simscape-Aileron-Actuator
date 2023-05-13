@@ -1,5 +1,5 @@
 function solverBlock_pth = sm_aileron_actuator_setsolver(mdl,deskreal)
-% Copyright 2011-2022 The MathWorks, Inc.
+% Copyright 2011-2023 The MathWorks, Inc.
 
 desktop_solver = 'ode15s';
 
@@ -8,7 +8,7 @@ realtime_stepSize = '0.001';
 realtime_localSolver = 'NE_BACKWARD_EULER_ADVANCER';
 realtime_globalSolver = 'ode3';
 
-solverBlock_pth = find_system(mdl,'FollowLinks','on','LookUnderMasks','on', 'SubClassName', 'solver');
+solverBlock_pth = find_system(mdl,'MatchFilter',@Simulink.match.allVariants,'FollowLinks','on','LookUnderMasks','on', 'SubClassName', 'solver');
 
 if strcmpi(deskreal,'desktop')
     set_param(mdl,'Solver',desktop_solver);    

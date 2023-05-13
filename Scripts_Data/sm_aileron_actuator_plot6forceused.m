@@ -4,7 +4,7 @@
 % The plot below shows the actuator force used to follow the desired
 % trajectory.
 %
-% Copyright 2018-2022 The MathWorks, Inc.
+% Copyright 2018-2023 The MathWorks, Inc.
 
 % Generate simulation results if they don't exist
 if ~exist('simlog_sm_aileron_actuator', 'var')
