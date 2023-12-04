@@ -19,6 +19,6 @@ end
 if(open_start_content)
     % Open model and demo script
     sm_aileron_actuator
-    open('sm_aileron_actuator_Demo_Script.html');
+    web('sm_aileron_actuator_Demo_Script.html');
 end
 clear open_start_content
