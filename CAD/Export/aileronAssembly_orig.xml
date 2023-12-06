@@ -1,0 +1,1889 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SimscapeMultibodyImportXML xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.0">
+   <Created by="Steve Miller" from="Onshape" on="03/27/18||10:15:29" using="Simscape Multibody Exporter"/>
+   <ModelUnits length="meter" mass="kilogram"/>
+   <DataUnits length="meter" mass="kilogram"/>
+   <RootAssembly name="aileron assembly" uid="e7300e4ea1dc5bec5eba5651" version="w-ec83d9835435f1597e3d7fb2">
+      <InstanceTree>
+         <Instance entityUid="e30b9a287a4a9a5d5ffafbf8" name="MountBrackets &lt;1&gt;" uid="MB+dfD67M9ZqaC5Q/">
+            <Transform>
+               <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+               <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+            </Transform>
+            <Instance entityUid="f765da84f1eb1adbeda33aa9" name="MountL_BrkL &lt;1&gt;" uid="MKCnRozoKgq0njote">
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;4&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-MKCnRozoKgq0njote.Mg6Ovz067qjv3RYDM" uid="MNCAaayIXy13LlEea">
+                  <Transform>
+                     <Rotation>-1.000000000 -0.000000000 0.000000000 -0.000000000 0.924224593 -0.381849319 -0.000000000 -0.381849319 -0.924224593 </Rotation>
+                     <Translation>1.054543990 -8.135317113 0.930945781 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;7&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-MKCnRozoKgq0njote.Mg6Ovz067qjv3RYDM" uid="MfFPl4Ms8aJDGFDbg">
+                  <Transform>
+                     <Rotation>-1.000000000 0.000000000 -0.000000000 -0.000000000 0.952345037 0.305022838 0.000000000 0.305022838 -0.952345037 </Rotation>
+                     <Translation>1.054543990 -8.115317113 0.949568130 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;3&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-MKCnRozoKgq0njote.Mg6Ovz067qjv3RYDM" uid="MkkVUp32oXsenN5MY">
+                  <Transform>
+                     <Rotation>-1.000000000 -0.000000000 0.000000000 -0.000000000 0.982045249 -0.188645513 0.000000000 -0.188645513 -0.982045249 </Rotation>
+                     <Translation>1.054543990 -8.135317113 0.949568130 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JF7*:*33ebf10ae9ba9d0a6bc05f85" grounded="true" name="Mount_BrkL &lt;1&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-MKCnRozoKgq0njote.Mg6Ovz067qjv3RYDM" uid="MGOvgH/Aya+I9seJh">
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                     <Translation>1.064431709 -8.109317113 0.944291519 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;9&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-MKCnRozoKgq0njote.Mg6Ovz067qjv3RYDM" uid="MOxgP/WNbrNrzJHPG">
+                  <Transform>
+                     <Rotation>-1.000000000 -0.000000000 -0.000000000 -0.000000000 0.407879540 0.913035750 -0.000000000 0.913035750 -0.407879540 </Rotation>
+                     <Translation>1.054543990 -8.085317113 0.930945781 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;5&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-MKCnRozoKgq0njote.Mg6Ovz067qjv3RYDM" uid="MekVntf7aKtahwrCp">
+                  <Transform>
+                     <Rotation>-1.000000000 -0.000000000 -0.000000000 -0.000000000 0.849462303 0.527649312 0.000000000 0.527649312 -0.849462303 </Rotation>
+                     <Translation>1.054543990 -8.115317113 0.968190479 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;8&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-MKCnRozoKgq0njote.Mg6Ovz067qjv3RYDM" uid="M7luBVTO808vztz/y">
+                  <Transform>
+                     <Rotation>-1.000000000 -0.000000000 -0.000000000 -0.000000000 0.586716540 0.809792382 0.000000000 0.809792382 -0.586716540 </Rotation>
+                     <Translation>1.054543990 -8.085317113 0.968190479 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;6&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-MKCnRozoKgq0njote.Mg6Ovz067qjv3RYDM" uid="MmCbQ8ubIt69SrSIJ">
+                  <Transform>
+                     <Rotation>-1.000000000 -0.000000000 0.000000000 -0.000000000 0.998609741 0.052712283 -0.000000000 0.052712283 -0.998609741 </Rotation>
+                     <Translation>1.054543990 -8.135317113 0.968190479 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;2&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-MKCnRozoKgq0njote.Mg6Ovz067qjv3RYDM" uid="Mxc26jqtXfNiLQpsE">
+                  <Transform>
+                     <Rotation>-1.000000000 -0.000000000 0.000000000 -0.000000000 0.479221260 0.877694129 -0.000000000 0.877694129 -0.479221260 </Rotation>
+                     <Translation>1.054543990 -8.085317113 0.949568130 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;1&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-MKCnRozoKgq0njote.Mg6Ovz067qjv3RYDM" uid="Mza7fdvZWEfKOJpv1">
+                  <Transform>
+                     <Rotation>-1.000000000 0.000000000 0.000000000 0.000000000 0.717427800 0.696632867 -0.000000000 0.696632867 -0.717427800 </Rotation>
+                     <Translation>1.054543990 -8.115317113 0.930945781 </Translation>
+                  </Transform>
+               </Instance>
+            </Instance>
+            <Instance entityUid="e897da5ab566d8557956f81e" name="MountC_BrkR &lt;1&gt;" uid="MrNbnuT0moxi8cR3w">
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+               <Instance entityUid="JFP*:*33ebf10ae9ba9d0a6bc05f85" grounded="true" name="Mount_BrkR &lt;1&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-MrNbnuT0moxi8cR3w.MwgfbH65RW7VLi08n" uid="MlD2uiejuVA+OB6b0">
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                     <Translation>1.064431709 -5.767317113 0.944291519 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;3&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-MrNbnuT0moxi8cR3w.MwgfbH65RW7VLi08n" uid="MHY+9oGCQrn9K3dd4">
+                  <Transform>
+                     <Rotation>-1.000000000 0.000000000 -0.000000000 0.000000000 0.586716540 -0.809792382 0.000000000 -0.809792382 -0.586716540 </Rotation>
+                     <Translation>1.054543990 -5.791317113 0.968190479 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;6&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-MrNbnuT0moxi8cR3w.MwgfbH65RW7VLi08n" uid="MKi6pzOLQRwnDy3j0">
+                  <Transform>
+                     <Rotation>-1.000000000 0.000000000 0.000000000 0.000000000 0.924224593 0.381849319 -0.000000000 0.381849319 -0.924224593 </Rotation>
+                     <Translation>1.054543990 -5.741317113 0.930945781 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;1&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-MrNbnuT0moxi8cR3w.MwgfbH65RW7VLi08n" uid="MqDg6NsggodVnyr8H">
+                  <Transform>
+                     <Rotation>-1.000000000 0.000000000 0.000000000 0.000000000 0.479221260 -0.877694129 -0.000000000 -0.877694129 -0.479221260 </Rotation>
+                     <Translation>1.054543990 -5.791317113 0.949568130 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;7&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-MrNbnuT0moxi8cR3w.MwgfbH65RW7VLi08n" uid="MUQgmixdZH7SBwzsw">
+                  <Transform>
+                     <Rotation>-1.000000000 0.000000000 -0.000000000 0.000000000 0.849462303 -0.527649312 0.000000000 -0.527649312 -0.849462303 </Rotation>
+                     <Translation>1.054543990 -5.761317113 0.968190479 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;5&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-MrNbnuT0moxi8cR3w.MwgfbH65RW7VLi08n" uid="M/iB1/VwiJ5xnVjJ+">
+                  <Transform>
+                     <Rotation>-1.000000000 0.000000000 0.000000000 0.000000000 0.998609741 -0.052712283 -0.000000000 -0.052712283 -0.998609741 </Rotation>
+                     <Translation>1.054543990 -5.741317113 0.968190479 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;4&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-MrNbnuT0moxi8cR3w.MwgfbH65RW7VLi08n" uid="M69A+wGzLUgSYNly1">
+                  <Transform>
+                     <Rotation>-1.000000000 -0.000000000 0.000000000 -0.000000000 0.717427800 -0.696632867 -0.000000000 -0.696632867 -0.717427800 </Rotation>
+                     <Translation>1.054543990 -5.761317113 0.930945781 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;8&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-MrNbnuT0moxi8cR3w.MwgfbH65RW7VLi08n" uid="M5Qlu40g2Bdu7LBzz">
+                  <Transform>
+                     <Rotation>-1.000000000 -0.000000000 -0.000000000 0.000000000 0.952345037 -0.305022838 0.000000000 -0.305022838 -0.952345037 </Rotation>
+                     <Translation>1.054543990 -5.761317113 0.949568130 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;2&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-MrNbnuT0moxi8cR3w.MwgfbH65RW7VLi08n" uid="MKVMw+VfcuH29elWi">
+                  <Transform>
+                     <Rotation>-1.000000000 0.000000000 -0.000000000 0.000000000 0.407879540 -0.913035750 -0.000000000 -0.913035750 -0.407879540 </Rotation>
+                     <Translation>1.054543990 -5.791317113 0.930945781 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;9&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-MrNbnuT0moxi8cR3w.MwgfbH65RW7VLi08n" uid="Mojnwe2IcZsukSmoi">
+                  <Transform>
+                     <Rotation>-1.000000000 0.000000000 0.000000000 0.000000000 0.982045249 0.188645513 0.000000000 0.188645513 -0.982045249 </Rotation>
+                     <Translation>1.054543990 -5.741317113 0.949568130 </Translation>
+                  </Transform>
+               </Instance>
+            </Instance>
+            <Instance entityUid="1f011b7c72a0d4ab38543787" name="MountR_ArmR &lt;1&gt;" uid="MnWLaT6LJczoieK7+">
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;8&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-MnWLaT6LJczoieK7+.MII2IuH2wcIzvm5sd" uid="MtutgHH0LuobTFHfQ">
+                  <Transform>
+                     <Rotation>-1.000000000 0.000000000 -0.000000000 0.000000000 0.586716540 -0.809792382 0.000000000 -0.809792382 -0.586716540 </Rotation>
+                     <Translation>1.054543990 -3.563317113 0.968190479 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;4&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-MnWLaT6LJczoieK7+.MII2IuH2wcIzvm5sd" uid="MpEHMf1OS0afm/hSV">
+                  <Transform>
+                     <Rotation>-1.000000000 0.000000000 0.000000000 0.000000000 0.479221260 -0.877694129 -0.000000000 -0.877694129 -0.479221260 </Rotation>
+                     <Translation>1.054543990 -3.563317113 0.949568130 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;1&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-MnWLaT6LJczoieK7+.MII2IuH2wcIzvm5sd" uid="Mqh3da6QYPxbB0I2i">
+                  <Transform>
+                     <Rotation>-1.000000000 0.000000000 0.000000000 0.000000000 0.998609741 -0.052712283 -0.000000000 -0.052712283 -0.998609741 </Rotation>
+                     <Translation>1.054543990 -3.513317113 0.968190479 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;7&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-MnWLaT6LJczoieK7+.MII2IuH2wcIzvm5sd" uid="MmK2O+y/ddXBfVipk">
+                  <Transform>
+                     <Rotation>-1.000000000 -0.000000000 -0.000000000 0.000000000 0.952345037 -0.305022838 0.000000000 -0.305022838 -0.952345037 </Rotation>
+                     <Translation>1.054543990 -3.533317113 0.949568130 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;2&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-MnWLaT6LJczoieK7+.MII2IuH2wcIzvm5sd" uid="MfXHd5I5/HrwTbz1n">
+                  <Transform>
+                     <Rotation>-1.000000000 -0.000000000 0.000000000 -0.000000000 0.717427800 -0.696632867 -0.000000000 -0.696632867 -0.717427800 </Rotation>
+                     <Translation>1.054543990 -3.533317113 0.930945781 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;3&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-MnWLaT6LJczoieK7+.MII2IuH2wcIzvm5sd" uid="M3E6QkxfTG57+1VlY">
+                  <Transform>
+                     <Rotation>-1.000000000 0.000000000 0.000000000 0.000000000 0.982045249 0.188645513 0.000000000 0.188645513 -0.982045249 </Rotation>
+                     <Translation>1.054543990 -3.513317113 0.949568130 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;6&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-MnWLaT6LJczoieK7+.MII2IuH2wcIzvm5sd" uid="MLVtnUZgDT7Wn1JNw">
+                  <Transform>
+                     <Rotation>-1.000000000 0.000000000 -0.000000000 0.000000000 0.407879540 -0.913035750 -0.000000000 -0.913035750 -0.407879540 </Rotation>
+                     <Translation>1.054543990 -3.563317113 0.930945781 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFP*:*33ebf10ae9ba9d0a6bc05f85" grounded="true" name="Mount_BrkR &lt;1&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-MnWLaT6LJczoieK7+.MII2IuH2wcIzvm5sd" uid="MHtCbaZNJIoKhlsAY">
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                     <Translation>1.064431709 -3.539317113 0.944291519 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;5&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-MnWLaT6LJczoieK7+.MII2IuH2wcIzvm5sd" uid="MrSfCZBFlSX/hzmZN">
+                  <Transform>
+                     <Rotation>-1.000000000 0.000000000 -0.000000000 0.000000000 0.849462303 -0.527649312 0.000000000 -0.527649312 -0.849462303 </Rotation>
+                     <Translation>1.054543990 -3.533317113 0.968190479 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;9&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-MnWLaT6LJczoieK7+.MII2IuH2wcIzvm5sd" uid="MGQAHjev8Zd9hO0N6">
+                  <Transform>
+                     <Rotation>-1.000000000 0.000000000 0.000000000 0.000000000 0.924224593 0.381849319 -0.000000000 0.381849319 -0.924224593 </Rotation>
+                     <Translation>1.054543990 -3.513317113 0.930945781 </Translation>
+                  </Transform>
+               </Instance>
+            </Instance>
+            <Instance entityUid="e7c4e66bb37aef1981a21996" name="MountR &lt;1&gt;" uid="M95SmkTHBXwVBq5xl">
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;3&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-M95SmkTHBXwVBq5xl.Mkt1+MidgYwGPx58H" uid="M5mcz/x9xvAkQerpC">
+                  <Transform>
+                     <Rotation>0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 </Rotation>
+                     <Translation>0.902783052 -3.625317113 0.921091519 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFv*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Nut_M10 &lt;1&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-M95SmkTHBXwVBq5xl.Mkt1+MidgYwGPx58H" uid="MUmgLvmUzYHpxS1c9">
+                  <Transform>
+                     <Rotation>0.993597903 0.000000000 -0.112974369 0.000000000 1.000000000 0.000000000 0.112974369 0.000000000 0.993597903 </Rotation>
+                     <Translation>0.931791875 -3.614817113 0.944962474 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;1&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-M95SmkTHBXwVBq5xl.Mkt1+MidgYwGPx58H" uid="McyUmZfwdZAv001i3">
+                  <Transform>
+                     <Rotation>0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 </Rotation>
+                     <Translation>0.902783052 -3.567317113 0.921091519 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;4&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-M95SmkTHBXwVBq5xl.Mkt1+MidgYwGPx58H" uid="MpDGHG4vjZokdTcLt">
+                  <Transform>
+                     <Rotation>0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 </Rotation>
+                     <Translation>0.960783052 -3.625317113 0.921091519 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFT*:*33ebf10ae9ba9d0a6bc05f85" grounded="true" name="Mount &lt;1&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-M95SmkTHBXwVBq5xl.Mkt1+MidgYwGPx58H" uid="MykVxJSaEK7AwIWk7">
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                     <Translation>0.000000000 0.000000000 0.944291519 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;2&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-M95SmkTHBXwVBq5xl.Mkt1+MidgYwGPx58H" uid="MA0JhKj22M9lfwfyH">
+                  <Transform>
+                     <Rotation>0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 </Rotation>
+                     <Translation>0.960783052 -3.567317113 0.921091519 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFr*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M10 &lt;1&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-M95SmkTHBXwVBq5xl.Mkt1+MidgYwGPx58H" uid="MwFxanm+4uCxEcSPd">
+                  <Transform>
+                     <Rotation>0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                     <Translation>0.931791875 -3.580817113 0.944962474 </Translation>
+                  </Transform>
+               </Instance>
+            </Instance>
+            <Instance entityUid="95e65e37a5e97fa6133c07a4" name="MountC &lt;1&gt;" uid="M/4QmUUGKroTxITfY">
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+               <Instance entityUid="JFT*:*33ebf10ae9ba9d0a6bc05f85" grounded="true" name="Mount &lt;1&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-M/4QmUUGKroTxITfY.MBs6aC9U/Qq78Ac0m" uid="MhcU4CaIWPJvp7eSW">
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                     <Translation>0.000000000 -2.228000000 0.944291519 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFr*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M10 &lt;1&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-M/4QmUUGKroTxITfY.MBs6aC9U/Qq78Ac0m" uid="M6DX05DblSJXCbBw8">
+                  <Transform>
+                     <Rotation>0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                     <Translation>0.931791875 -5.808817113 0.944962474 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;1&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-M/4QmUUGKroTxITfY.MBs6aC9U/Qq78Ac0m" uid="Mxh4VrMxWiTysraiz">
+                  <Transform>
+                     <Rotation>0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 </Rotation>
+                     <Translation>0.902783052 -5.853317113 0.921091519 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFv*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Nut_M10 &lt;1&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-M/4QmUUGKroTxITfY.MBs6aC9U/Qq78Ac0m" uid="M2m48hECrV8B5a/8Y">
+                  <Transform>
+                     <Rotation>0.993597903 0.000000000 -0.112974369 0.000000000 1.000000000 0.000000000 0.112974369 0.000000000 0.993597903 </Rotation>
+                     <Translation>0.931791875 -5.842817113 0.944962474 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;4&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-M/4QmUUGKroTxITfY.MBs6aC9U/Qq78Ac0m" uid="ML0vUR3xU3vu4cHgj">
+                  <Transform>
+                     <Rotation>0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 </Rotation>
+                     <Translation>0.902783052 -5.795317113 0.921091519 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;2&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-M/4QmUUGKroTxITfY.MBs6aC9U/Qq78Ac0m" uid="MV8r7tfjgZVSGcu6u">
+                  <Transform>
+                     <Rotation>0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 </Rotation>
+                     <Translation>0.960783052 -5.853317113 0.921091519 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;3&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-M/4QmUUGKroTxITfY.MBs6aC9U/Qq78Ac0m" uid="MgbOfkxCIuvMRKJXe">
+                  <Transform>
+                     <Rotation>0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 </Rotation>
+                     <Translation>0.960783052 -5.795317113 0.921091519 </Translation>
+                  </Transform>
+               </Instance>
+            </Instance>
+            <Instance entityUid="600eae19eabc1d0fc31d5a66" name="MountL_BrkR &lt;1&gt;" uid="M3Ub3U8QP6ZwuuORj">
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;9&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-M3Ub3U8QP6ZwuuORj.MNV9CC0/FSC6NpTBj" uid="MCchiKRXmfIzJaaa9">
+                  <Transform>
+                     <Rotation>-1.000000000 0.000000000 0.000000000 0.000000000 0.982045249 0.188645513 0.000000000 0.188645513 -0.982045249 </Rotation>
+                     <Translation>1.054543990 -7.969317113 0.949568130 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;4&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-M3Ub3U8QP6ZwuuORj.MNV9CC0/FSC6NpTBj" uid="MCjOCQqWVoZGHPm53">
+                  <Transform>
+                     <Rotation>-1.000000000 -0.000000000 0.000000000 -0.000000000 0.717427800 -0.696632867 -0.000000000 -0.696632867 -0.717427800 </Rotation>
+                     <Translation>1.054543990 -7.989317113 0.930945781 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;6&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-M3Ub3U8QP6ZwuuORj.MNV9CC0/FSC6NpTBj" uid="MhsbdVZZf/drCJc3/">
+                  <Transform>
+                     <Rotation>-1.000000000 0.000000000 0.000000000 0.000000000 0.924224593 0.381849319 -0.000000000 0.381849319 -0.924224593 </Rotation>
+                     <Translation>1.054543990 -7.969317113 0.930945781 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;2&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-M3Ub3U8QP6ZwuuORj.MNV9CC0/FSC6NpTBj" uid="MPZWmtE6Zkn3gwPbc">
+                  <Transform>
+                     <Rotation>-1.000000000 0.000000000 -0.000000000 0.000000000 0.407879540 -0.913035750 -0.000000000 -0.913035750 -0.407879540 </Rotation>
+                     <Translation>1.054543990 -8.019317113 0.930945781 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;5&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-M3Ub3U8QP6ZwuuORj.MNV9CC0/FSC6NpTBj" uid="MKRsflCtcr3WP4SKV">
+                  <Transform>
+                     <Rotation>-1.000000000 0.000000000 0.000000000 0.000000000 0.998609741 -0.052712283 -0.000000000 -0.052712283 -0.998609741 </Rotation>
+                     <Translation>1.054543990 -7.969317113 0.968190479 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;3&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-M3Ub3U8QP6ZwuuORj.MNV9CC0/FSC6NpTBj" uid="MqwbkuUO5MDrUAO1U">
+                  <Transform>
+                     <Rotation>-1.000000000 0.000000000 -0.000000000 0.000000000 0.586716540 -0.809792382 0.000000000 -0.809792382 -0.586716540 </Rotation>
+                     <Translation>1.054543990 -8.019317113 0.968190479 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;1&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-M3Ub3U8QP6ZwuuORj.MNV9CC0/FSC6NpTBj" uid="MDfQncaEJ/p3PUeOp">
+                  <Transform>
+                     <Rotation>-1.000000000 0.000000000 0.000000000 0.000000000 0.479221260 -0.877694129 -0.000000000 -0.877694129 -0.479221260 </Rotation>
+                     <Translation>1.054543990 -8.019317113 0.949568130 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;7&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-M3Ub3U8QP6ZwuuORj.MNV9CC0/FSC6NpTBj" uid="M+JYXX9/PU9cKII8h">
+                  <Transform>
+                     <Rotation>-1.000000000 0.000000000 -0.000000000 0.000000000 0.849462303 -0.527649312 0.000000000 -0.527649312 -0.849462303 </Rotation>
+                     <Translation>1.054543990 -7.989317113 0.968190479 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;8&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-M3Ub3U8QP6ZwuuORj.MNV9CC0/FSC6NpTBj" uid="Mk8BYc5ehs4Cs+ZZL">
+                  <Transform>
+                     <Rotation>-1.000000000 -0.000000000 -0.000000000 0.000000000 0.952345037 -0.305022838 0.000000000 -0.305022838 -0.952345037 </Rotation>
+                     <Translation>1.054543990 -7.989317113 0.949568130 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFP*:*33ebf10ae9ba9d0a6bc05f85" grounded="true" name="Mount_BrkR &lt;1&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-M3Ub3U8QP6ZwuuORj.MNV9CC0/FSC6NpTBj" uid="MWZTNkYnM3W/I8fOf">
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                     <Translation>1.064431709 -7.995317113 0.944291519 </Translation>
+                  </Transform>
+               </Instance>
+            </Instance>
+            <Instance entityUid="448056c370bdf28bd08ff814" name="MountC_BrkL &lt;1&gt;" uid="MhVrz62160gcdqCA8">
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+               <Instance entityUid="JF7*:*33ebf10ae9ba9d0a6bc05f85" grounded="true" name="Mount_BrkL &lt;1&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-MhVrz62160gcdqCA8.MEZoC88UKAMSGthwn" uid="Mh5I63vVHZm4lscHu">
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                     <Translation>1.064431709 -5.881317113 0.944291519 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;9&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-MhVrz62160gcdqCA8.MEZoC88UKAMSGthwn" uid="MtukSiOG1ymyerAXJ">
+                  <Transform>
+                     <Rotation>-1.000000000 -0.000000000 -0.000000000 -0.000000000 0.586716540 0.809792382 0.000000000 0.809792382 -0.586716540 </Rotation>
+                     <Translation>1.054543990 -5.857317113 0.968190479 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;1&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-MhVrz62160gcdqCA8.MEZoC88UKAMSGthwn" uid="MfuauPv5SCvrrttOT">
+                  <Transform>
+                     <Rotation>-1.000000000 -0.000000000 -0.000000000 -0.000000000 0.407879540 0.913035750 -0.000000000 0.913035750 -0.407879540 </Rotation>
+                     <Translation>1.054543990 -5.857317113 0.930945781 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;7&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-MhVrz62160gcdqCA8.MEZoC88UKAMSGthwn" uid="MIzxqft9oVxb720Qn">
+                  <Transform>
+                     <Rotation>-1.000000000 -0.000000000 0.000000000 -0.000000000 0.998609741 0.052712283 -0.000000000 0.052712283 -0.998609741 </Rotation>
+                     <Translation>1.054543990 -5.907317113 0.968190479 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;3&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-MhVrz62160gcdqCA8.MEZoC88UKAMSGthwn" uid="MamTf8klXeG7T729R">
+                  <Transform>
+                     <Rotation>-1.000000000 0.000000000 0.000000000 0.000000000 0.717427800 0.696632867 -0.000000000 0.696632867 -0.717427800 </Rotation>
+                     <Translation>1.054543990 -5.887317113 0.930945781 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;8&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-MhVrz62160gcdqCA8.MEZoC88UKAMSGthwn" uid="MnfhE4atxbwLVkexI">
+                  <Transform>
+                     <Rotation>-1.000000000 -0.000000000 0.000000000 -0.000000000 0.479221260 0.877694129 -0.000000000 0.877694129 -0.479221260 </Rotation>
+                     <Translation>1.054543990 -5.857317113 0.949568130 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;6&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-MhVrz62160gcdqCA8.MEZoC88UKAMSGthwn" uid="MANZ94f6BgNIyketi">
+                  <Transform>
+                     <Rotation>-1.000000000 -0.000000000 -0.000000000 -0.000000000 0.849462303 0.527649312 0.000000000 0.527649312 -0.849462303 </Rotation>
+                     <Translation>1.054543990 -5.887317113 0.968190479 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;2&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-MhVrz62160gcdqCA8.MEZoC88UKAMSGthwn" uid="MNWesJbh0FjntZ/PC">
+                  <Transform>
+                     <Rotation>-1.000000000 0.000000000 -0.000000000 -0.000000000 0.952345037 0.305022838 0.000000000 0.305022838 -0.952345037 </Rotation>
+                     <Translation>1.054543990 -5.887317113 0.949568130 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;5&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-MhVrz62160gcdqCA8.MEZoC88UKAMSGthwn" uid="M08mkxaA0twahTRMi">
+                  <Transform>
+                     <Rotation>-1.000000000 -0.000000000 0.000000000 -0.000000000 0.924224593 -0.381849319 -0.000000000 -0.381849319 -0.924224593 </Rotation>
+                     <Translation>1.054543990 -5.907317113 0.930945781 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;4&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-MhVrz62160gcdqCA8.MEZoC88UKAMSGthwn" uid="MJVYE4Z+UDPj4Gcv/">
+                  <Transform>
+                     <Rotation>-1.000000000 -0.000000000 0.000000000 -0.000000000 0.982045249 -0.188645513 0.000000000 -0.188645513 -0.982045249 </Rotation>
+                     <Translation>1.054543990 -5.907317113 0.949568130 </Translation>
+                  </Transform>
+               </Instance>
+            </Instance>
+            <Instance entityUid="c360203b51ae523fc2cbc787" name="MountR_ArmL &lt;1&gt;" uid="Maq3PA4fRO79LgLBT">
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+               <Instance entityUid="JF7*:*33ebf10ae9ba9d0a6bc05f85" grounded="true" name="Mount_BrkL &lt;1&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-Maq3PA4fRO79LgLBT.MHDb4NGrckWey3rUq" uid="M3h2wHJa9hBi8Cjsx">
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                     <Translation>1.064431709 -3.653317113 0.944291519 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;8&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-Maq3PA4fRO79LgLBT.MHDb4NGrckWey3rUq" uid="MHYixRNBl86neQLzC">
+                  <Transform>
+                     <Rotation>-1.000000000 -0.000000000 0.000000000 -0.000000000 0.982045249 -0.188645513 0.000000000 -0.188645513 -0.982045249 </Rotation>
+                     <Translation>1.054543990 -3.679317113 0.949568130 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;6&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-Maq3PA4fRO79LgLBT.MHDb4NGrckWey3rUq" uid="MHFJpEsa5poXYpJoW">
+                  <Transform>
+                     <Rotation>-1.000000000 -0.000000000 -0.000000000 -0.000000000 0.407879540 0.913035750 -0.000000000 0.913035750 -0.407879540 </Rotation>
+                     <Translation>1.054543990 -3.629317113 0.930945781 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;7&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-Maq3PA4fRO79LgLBT.MHDb4NGrckWey3rUq" uid="MI0RK7g4MWwDdWNGV">
+                  <Transform>
+                     <Rotation>-1.000000000 0.000000000 -0.000000000 -0.000000000 0.952345037 0.305022838 0.000000000 0.305022838 -0.952345037 </Rotation>
+                     <Translation>1.054543990 -3.659317113 0.949568130 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;2&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-Maq3PA4fRO79LgLBT.MHDb4NGrckWey3rUq" uid="Mj6L/w//5wrzn2HQ9">
+                  <Transform>
+                     <Rotation>-1.000000000 -0.000000000 -0.000000000 -0.000000000 0.849462303 0.527649312 0.000000000 0.527649312 -0.849462303 </Rotation>
+                     <Translation>1.054543990 -3.659317113 0.968190479 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;4&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-Maq3PA4fRO79LgLBT.MHDb4NGrckWey3rUq" uid="Mk3U7Oqrk+s24WIph">
+                  <Transform>
+                     <Rotation>-1.000000000 -0.000000000 -0.000000000 -0.000000000 0.586716540 0.809792382 0.000000000 0.809792382 -0.586716540 </Rotation>
+                     <Translation>1.054543990 -3.629317113 0.968190479 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;1&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-Maq3PA4fRO79LgLBT.MHDb4NGrckWey3rUq" uid="Mj68EQu3VWh39poGw">
+                  <Transform>
+                     <Rotation>-1.000000000 -0.000000000 0.000000000 -0.000000000 0.998609741 0.052712283 -0.000000000 0.052712283 -0.998609741 </Rotation>
+                     <Translation>1.054543990 -3.679317113 0.968190479 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;3&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-Maq3PA4fRO79LgLBT.MHDb4NGrckWey3rUq" uid="M/CzpES6wWvh+fqB7">
+                  <Transform>
+                     <Rotation>-1.000000000 0.000000000 0.000000000 0.000000000 0.717427800 0.696632867 -0.000000000 0.696632867 -0.717427800 </Rotation>
+                     <Translation>1.054543990 -3.659317113 0.930945781 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;12&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-Maq3PA4fRO79LgLBT.MHDb4NGrckWey3rUq" uid="M20CPfS+5uAWzT+I/">
+                  <Transform>
+                     <Rotation>-1.000000000 -0.000000000 0.000000000 -0.000000000 0.479221260 0.877694129 -0.000000000 0.877694129 -0.479221260 </Rotation>
+                     <Translation>1.054543990 -3.629317113 0.949568130 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;5&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-Maq3PA4fRO79LgLBT.MHDb4NGrckWey3rUq" uid="M+NXKum4sba04tlV8">
+                  <Transform>
+                     <Rotation>-1.000000000 -0.000000000 0.000000000 -0.000000000 0.924224593 -0.381849319 -0.000000000 -0.381849319 -0.924224593 </Rotation>
+                     <Translation>1.054543990 -3.679317113 0.930945781 </Translation>
+                  </Transform>
+               </Instance>
+            </Instance>
+            <Instance entityUid="53869050c77a8de79a403c6c" name="MountL &lt;1&gt;" uid="MfQcGmWUtsY+lsNc0">
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+               <Instance entityUid="JFr*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M10 &lt;1&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-MfQcGmWUtsY+lsNc0.Mc2NZudWgcEOpnMb1" uid="MfU8Z//bfrwhvj7DI">
+                  <Transform>
+                     <Rotation>0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                     <Translation>0.931791875 -8.036817113 0.944962474 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;3&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-MfQcGmWUtsY+lsNc0.Mc2NZudWgcEOpnMb1" uid="MxIQhKjx2Fu8k+PuH">
+                  <Transform>
+                     <Rotation>0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 </Rotation>
+                     <Translation>0.960783052 -8.081317113 0.921091519 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFv*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Nut_M10 &lt;1&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-MfQcGmWUtsY+lsNc0.Mc2NZudWgcEOpnMb1" uid="MTjMIlxlttHc2u60+">
+                  <Transform>
+                     <Rotation>0.993597903 0.000000000 -0.112974369 0.000000000 1.000000000 0.000000000 0.112974369 0.000000000 0.993597903 </Rotation>
+                     <Translation>0.931791875 -8.070817113 0.944962474 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;1&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-MfQcGmWUtsY+lsNc0.Mc2NZudWgcEOpnMb1" uid="M85fr+f7VeVOZYss5">
+                  <Transform>
+                     <Rotation>0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 </Rotation>
+                     <Translation>0.960783052 -8.023317113 0.921091519 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;2&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-MfQcGmWUtsY+lsNc0.Mc2NZudWgcEOpnMb1" uid="MF5l947AVGyyYV8xD">
+                  <Transform>
+                     <Rotation>0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 </Rotation>
+                     <Translation>0.902783052 -8.023317113 0.921091519 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFT*:*33ebf10ae9ba9d0a6bc05f85" grounded="true" name="Mount &lt;1&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-MfQcGmWUtsY+lsNc0.Mc2NZudWgcEOpnMb1" uid="MOasAqiQSFUv0O+4V">
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                     <Translation>0.000000000 -4.456000000 0.944291519 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFz*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Screw_M5 &lt;4&gt;" rigidGroup="root-MB+dfD67M9ZqaC5Q/-MfQcGmWUtsY+lsNc0.Mc2NZudWgcEOpnMb1" uid="MyE5U+05gZEoYxEms">
+                  <Transform>
+                     <Rotation>0.000000000 0.000000000 1.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 </Rotation>
+                     <Translation>0.902783052 -8.081317113 0.921091519 </Translation>
+                  </Transform>
+               </Instance>
+            </Instance>
+         </Instance>
+         <Instance entityUid="b39f1e1516dba6d214ddd0d3" name="Actuator &lt;3&gt;" uid="MbQ/ALXZrf4lcFIIg">
+            <Transform>
+               <Rotation>0.978294036 -0.207221571 -0.000000000 -0.000000000 0.000000000 -1.000000000 0.207221571 0.978294036 0.000000000 </Rotation>
+               <Translation>0.491686385 -7.583050572 1.491130614 </Translation>
+            </Transform>
+            <Instance entityUid="JHD*:*33ebf10ae9ba9d0a6bc05f85" name="Cylinder &lt;1&gt;" uid="McUijGDHOURbHjh4P">
+               <Transform>
+                  <Rotation>0.999515154 -0.031136103 -0.000000000 0.031136103 0.999515154 -0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.396148597 -0.622784671 0.469266541 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KF/D*:*33ebf10ae9ba9d0a6bc05f85" name="Piston &lt;1&gt;" uid="Mz73bv9TOi4J2D21X">
+               <Transform>
+                  <Rotation>-0.031136103 -0.000000000 0.999515154 0.999515154 -0.000000000 0.031136103 0.000000000 1.000000000 0.000000000 </Rotation>
+                  <Translation>0.509963128 -0.619239211 0.469266541 </Translation>
+               </Transform>
+            </Instance>
+         </Instance>
+         <Instance entityUid="b39f1e1516dba6d214ddd0d3" name="Actuator &lt;2&gt;" uid="MfxNmSk7V/ttL26zl">
+            <Transform>
+               <Rotation>0.978294036 -0.207221571 -0.000000000 -0.000000000 0.000000000 -1.000000000 0.207221571 0.978294036 0.000000000 </Rotation>
+               <Translation>0.491686385 -5.355050572 1.491130614 </Translation>
+            </Transform>
+            <Instance entityUid="KF/D*:*33ebf10ae9ba9d0a6bc05f85" name="Piston &lt;1&gt;" uid="Mz73bv9TOi4J2D21X">
+               <Transform>
+                  <Rotation>-0.031136103 -0.000000000 0.999515154 0.999515154 -0.000000000 0.031136103 -0.000000000 1.000000000 0.000000000 </Rotation>
+                  <Translation>0.509963128 -0.619239211 0.469266541 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="JHD*:*33ebf10ae9ba9d0a6bc05f85" name="Cylinder &lt;1&gt;" uid="McUijGDHOURbHjh4P">
+               <Transform>
+                  <Rotation>0.999515154 -0.031136103 -0.000000000 0.031136103 0.999515154 -0.000000000 -0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.396148597 -0.622784671 0.469266541 </Translation>
+               </Transform>
+            </Instance>
+         </Instance>
+         <Instance entityUid="dcb046393e6fcc7aba6626e8" name="Aileron_Att &lt;1&gt;" uid="MTlfuJuqExA51z8zW">
+            <Transform>
+               <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+               <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+            </Transform>
+            <Instance entityUid="JFD*:*33ebf10ae9ba9d0a6bc05f85" name="Aileron &lt;1&gt;" uid="MfcB8EFD6oCH2x3SM">
+               <Transform>
+                  <Rotation>0.896187316 0.000000000 -0.443675889 0.000000000 1.000000000 0.000000000 0.443675889 -0.000000000 0.896187316 </Rotation>
+                  <Translation>1.064749773 -2.809316861 0.911989493 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="8480e83a3724a9b37280313d" name="MountL_Att &lt;1&gt;" uid="MyJfS6L5dlzWGQOOA">
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+               <Instance entityUid="JFX*:*33ebf10ae9ba9d0a6bc05f85" name="Washer &lt;4&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MyJfS6L5dlzWGQOOA.MOw5TDWz1dV+HRp54" uid="MDij+Oyr7qtBtJNPy">
+                  <Transform>
+                     <Rotation>-0.000000000 -0.896187316 -0.443675889 1.000000000 0.000000000 -0.000000000 0.000000000 -0.443675889 0.896187316 </Rotation>
+                     <Translation>1.118899993 -8.073316861 0.991007947 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFj*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Flange_Screw_M6 &lt;5&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MyJfS6L5dlzWGQOOA.MOw5TDWz1dV+HRp54" uid="M7UB4/5ynwwICeTJD">
+                  <Transform>
+                     <Rotation>0.970835122 -0.000000000 -0.239748130 0.000000000 1.000000000 -0.000000000 0.239748130 0.000000000 0.970835122 </Rotation>
+                     <Translation>1.140837931 -8.003316861 1.009067868 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFn*:*33ebf10ae9ba9d0a6bc05f85" name="Oval_Head_M4 &lt;1&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MyJfS6L5dlzWGQOOA.M0zR4iCv+tvayohIN" uid="MYV/AF/9bIf11LmpG">
+                  <Transform>
+                     <Rotation>0.000000000 -0.972533357 0.232763547 1.000000000 0.000000000 0.000000000 -0.000000000 0.232763547 0.972533357 </Rotation>
+                     <Translation>1.100375356 -7.997351674 0.923822505 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFn*:*33ebf10ae9ba9d0a6bc05f85" name="Oval_Head_M4 &lt;11&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MyJfS6L5dlzWGQOOA.M0zR4iCv+tvayohIN" uid="M8eWiTa+zok32LOBd">
+                  <Transform>
+                     <Rotation>0.000000000 -0.737048923 -0.675839393 1.000000000 -0.000000000 0.000000000 -0.000000000 -0.675839393 0.737048923 </Rotation>
+                     <Translation>1.109185671 -7.997351674 0.971126734 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFn*:*33ebf10ae9ba9d0a6bc05f85" name="Oval_Head_M4 &lt;8&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MyJfS6L5dlzWGQOOA.M0zR4iCv+tvayohIN" uid="MR4jhlU6++l2L1DZj">
+                  <Transform>
+                     <Rotation>0.000000000 -0.972533357 0.232763547 1.000000000 0.000000000 0.000000000 -0.000000000 0.232763547 0.972533357 </Rotation>
+                     <Translation>1.080389595 -7.997351674 0.924431480 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFn*:*33ebf10ae9ba9d0a6bc05f85" name="Oval_Head_M4 &lt;7&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MyJfS6L5dlzWGQOOA.MB0MlGZcoMDfxXxfE" uid="Max720JIuOyy0SVej">
+                  <Transform>
+                     <Rotation>0.000000000 0.972533357 0.232763547 -1.000000000 0.000000000 -0.000000000 -0.000000000 -0.232763547 0.972533357 </Rotation>
+                     <Translation>1.100375554 -8.107282049 0.923822478 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JF3*:*33ebf10ae9ba9d0a6bc05f85" name="AilBrk_L &lt;1&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MyJfS6L5dlzWGQOOA.MB0MlGZcoMDfxXxfE" uid="MT8bcN2zhwSJDskaa">
+                  <Transform>
+                     <Rotation>0.896187316 -0.000000000 -0.443675889 0.000000000 1.000000000 -0.000000000 0.443675889 0.000000000 0.896187316 </Rotation>
+                     <Translation>1.062240930 -8.113776861 0.910584894 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFb*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Bolt_M10 &lt;2&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MyJfS6L5dlzWGQOOA.M0zR4iCv+tvayohIN" uid="MK0q7b16ugH8SPMwp">
+                  <Transform>
+                     <Rotation>0.000000000 -0.896187316 -0.443675889 1.000000000 -0.000000000 0.000000000 -0.000000000 -0.443675889 0.896187316 </Rotation>
+                     <Translation>1.135364081 -8.025006861 0.922756383 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFb*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Bolt_M10 &lt;3&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MyJfS6L5dlzWGQOOA.MOw5TDWz1dV+HRp54" uid="McpOkFaYmoC4CFhH8">
+                  <Transform>
+                     <Rotation>0.000000000 0.896187316 -0.443675889 -1.000000000 -0.000000000 -0.000000000 -0.000000000 0.443675889 0.896187316 </Rotation>
+                     <Translation>1.118899993 -8.022166861 0.991007947 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFH*:*33ebf10ae9ba9d0a6bc05f85" name="AilBrk_C &lt;1&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MyJfS6L5dlzWGQOOA.MOw5TDWz1dV+HRp54" uid="MgfP0PqmqTsJlCfNr">
+                  <Transform>
+                     <Rotation>0.000000000 0.970835122 -0.239748130 -1.000000000 0.000000000 -0.000000000 -0.000000000 0.239748130 0.970835122 </Rotation>
+                     <Translation>1.175661748 -7.265316861 0.938543087 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFn*:*33ebf10ae9ba9d0a6bc05f85" name="Oval_Head_M4 &lt;4&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MyJfS6L5dlzWGQOOA.MB0MlGZcoMDfxXxfE" uid="Mgi72JelMZdc2nAYF">
+                  <Transform>
+                     <Rotation>0.000000000 0.750626523 -0.660726739 -1.000000000 -0.000000000 -0.000000000 -0.000000000 0.660726739 0.750626523 </Rotation>
+                     <Translation>1.128219987 -8.107282049 0.935957000 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFn*:*33ebf10ae9ba9d0a6bc05f85" name="Oval_Head_M4 &lt;9&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MyJfS6L5dlzWGQOOA.MB0MlGZcoMDfxXxfE" uid="M0HDogz2XZhFizkbd">
+                  <Transform>
+                     <Rotation>0.000000000 0.972533357 0.232763547 -1.000000000 0.000000000 -0.000000000 -0.000000000 -0.232763547 0.972533357 </Rotation>
+                     <Translation>1.120361314 -8.107282049 0.923213503 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFX*:*33ebf10ae9ba9d0a6bc05f85" name="Washer &lt;2&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MyJfS6L5dlzWGQOOA.M0zR4iCv+tvayohIN" uid="Mk/3UcEYkL4+xXFcQ">
+                  <Transform>
+                     <Rotation>0.000000000 -0.896187316 -0.443675889 1.000000000 -0.000000000 0.000000000 -0.000000000 -0.443675889 0.896187316 </Rotation>
+                     <Translation>1.135364081 -8.015856861 0.922756383 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFn*:*33ebf10ae9ba9d0a6bc05f85" name="Oval_Head_M4 &lt;2&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MyJfS6L5dlzWGQOOA.MB0MlGZcoMDfxXxfE" uid="M5JeeIyJ73uLzPAFL">
+                  <Transform>
+                     <Rotation>0.000000000 0.737048923 -0.675839393 -1.000000000 -0.000000000 -0.000000000 -0.000000000 0.675839393 0.737048923 </Rotation>
+                     <Translation>1.109185869 -8.107282049 0.971126707 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFn*:*33ebf10ae9ba9d0a6bc05f85" name="Oval_Head_M4 &lt;6&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MyJfS6L5dlzWGQOOA.M0zR4iCv+tvayohIN" uid="MU2xtKTJfrNqvjpMC">
+                  <Transform>
+                     <Rotation>0.000000000 -0.896187316 -0.443675889 1.000000000 -0.000000000 0.000000000 -0.000000000 -0.443675889 0.896187316 </Rotation>
+                     <Translation>1.118702730 -7.997351674 0.953541881 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFn*:*33ebf10ae9ba9d0a6bc05f85" name="Oval_Head_M4 &lt;5&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MyJfS6L5dlzWGQOOA.MB0MlGZcoMDfxXxfE" uid="MrUgo+ijOKlWxQecq">
+                  <Transform>
+                     <Rotation>0.000000000 0.972533357 0.232763547 -1.000000000 0.000000000 -0.000000000 -0.000000000 -0.232763547 0.972533357 </Rotation>
+                     <Translation>1.080389793 -8.107282049 0.924431453 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFj*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Flange_Screw_M6 &lt;1&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MyJfS6L5dlzWGQOOA.MOw5TDWz1dV+HRp54" uid="M15qZXl+nWxSS3mV6">
+                  <Transform>
+                     <Rotation>0.970835122 -0.000000000 -0.239748130 0.000000000 1.000000000 -0.000000000 0.239748130 0.000000000 0.970835122 </Rotation>
+                     <Translation>1.148956101 -8.101316861 0.976194183 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFL*:*33ebf10ae9ba9d0a6bc05f85" name="AilBrk_R &lt;1&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MyJfS6L5dlzWGQOOA.M0zR4iCv+tvayohIN" uid="MuTkX5BParRXrdLNs">
+                  <Transform>
+                     <Rotation>0.896187316 0.000000000 -0.443675889 0.000000000 1.000000000 0.000000000 0.443675889 -0.000000000 0.896187316 </Rotation>
+                     <Translation>1.062240732 -7.990856861 0.910584921 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFn*:*33ebf10ae9ba9d0a6bc05f85" name="Oval_Head_M4 &lt;10&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MyJfS6L5dlzWGQOOA.M0zR4iCv+tvayohIN" uid="Ma2RL6qbSCkHSR38f">
+                  <Transform>
+                     <Rotation>0.000000000 -0.750626523 -0.660726739 1.000000000 -0.000000000 0.000000000 -0.000000000 -0.660726739 0.750626523 </Rotation>
+                     <Translation>1.128219789 -7.997351674 0.935957027 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFn*:*33ebf10ae9ba9d0a6bc05f85" name="Oval_Head_M4 &lt;3&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MyJfS6L5dlzWGQOOA.MB0MlGZcoMDfxXxfE" uid="MO7PxhdGxylh3WnGl">
+                  <Transform>
+                     <Rotation>0.000000000 0.896187316 -0.443675889 -1.000000000 0.000000000 -0.000000000 -0.000000000 0.443675889 0.896187316 </Rotation>
+                     <Translation>1.118702928 -8.107282049 0.953541853 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFn*:*33ebf10ae9ba9d0a6bc05f85" name="Oval_Head_M4 &lt;12&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MyJfS6L5dlzWGQOOA.M0zR4iCv+tvayohIN" uid="MABcmYfW3s29FGZSP">
+                  <Transform>
+                     <Rotation>0.000000000 -0.972533357 0.232763547 1.000000000 0.000000000 0.000000000 -0.000000000 0.232763547 0.972533357 </Rotation>
+                     <Translation>1.120361116 -7.997351674 0.923213530 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFj*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Flange_Screw_M6 &lt;2&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MyJfS6L5dlzWGQOOA.MOw5TDWz1dV+HRp54" uid="MQHgdnyCVmiz+Etkn">
+                  <Transform>
+                     <Rotation>0.970835122 -0.000000000 -0.239748130 0.000000000 1.000000000 -0.000000000 0.239748130 0.000000000 0.970835122 </Rotation>
+                     <Translation>1.140837931 -8.101316861 1.009067868 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFX*:*33ebf10ae9ba9d0a6bc05f85" name="Washer &lt;3&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MyJfS6L5dlzWGQOOA.MB0MlGZcoMDfxXxfE" uid="MKrWPzegP5mXL0Gz3">
+                  <Transform>
+                     <Rotation>0.000000000 0.896187316 -0.443675889 -1.000000000 0.000000000 -0.000000000 -0.000000000 0.443675889 0.896187316 </Rotation>
+                     <Translation>1.135364279 -8.088776861 0.922756356 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFb*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Bolt_M10 &lt;1&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MyJfS6L5dlzWGQOOA.MB0MlGZcoMDfxXxfE" uid="MsaYs5+zdCoinRKCd">
+                  <Transform>
+                     <Rotation>0.000000000 0.896187316 -0.443675889 -1.000000000 0.000000000 -0.000000000 -0.000000000 0.443675889 0.896187316 </Rotation>
+                     <Translation>1.135364279 -8.079626861 0.922756356 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFf*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Flange_Nut_M10 &lt;1&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MyJfS6L5dlzWGQOOA.MOw5TDWz1dV+HRp54" uid="M98xvqpopI8/FqPCw">
+                  <Transform>
+                     <Rotation>0.896187316 -0.000000000 -0.443675889 0.000000000 1.000000000 -0.000000000 0.443675889 0.000000000 0.896187316 </Rotation>
+                     <Translation>1.118899993 -8.085616861 0.991007947 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFX*:*33ebf10ae9ba9d0a6bc05f85" name="Washer &lt;1&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MyJfS6L5dlzWGQOOA.MOw5TDWz1dV+HRp54" uid="MrtV3rkyWr15kbES7">
+                  <Transform>
+                     <Rotation>0.000000000 0.896187316 -0.443675889 -1.000000000 -0.000000000 -0.000000000 -0.000000000 0.443675889 0.896187316 </Rotation>
+                     <Translation>1.118899993 -8.031316861 0.991007947 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFj*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Flange_Screw_M6 &lt;6&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MyJfS6L5dlzWGQOOA.MOw5TDWz1dV+HRp54" uid="MO2SE/emUnJxvZE1r">
+                  <Transform>
+                     <Rotation>0.970835122 -0.000000000 -0.239748130 0.000000000 1.000000000 -0.000000000 0.239748130 0.000000000 0.970835122 </Rotation>
+                     <Translation>1.157074271 -8.003316861 0.943320497 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFj*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Flange_Screw_M6 &lt;4&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MyJfS6L5dlzWGQOOA.MOw5TDWz1dV+HRp54" uid="Mo9tmTXX6yIMXskbQ">
+                  <Transform>
+                     <Rotation>0.970835122 -0.000000000 -0.239748130 0.000000000 1.000000000 -0.000000000 0.239748130 0.000000000 0.970835122 </Rotation>
+                     <Translation>1.157074271 -8.101316861 0.943320497 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFj*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Flange_Screw_M6 &lt;3&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MyJfS6L5dlzWGQOOA.MOw5TDWz1dV+HRp54" uid="M9GKL2glEUxod44Hx">
+                  <Transform>
+                     <Rotation>0.970835122 -0.000000000 -0.239748130 0.000000000 1.000000000 -0.000000000 0.239748130 0.000000000 0.970835122 </Rotation>
+                     <Translation>1.148956101 -8.003316861 0.976194183 </Translation>
+                  </Transform>
+               </Instance>
+            </Instance>
+            <Instance entityUid="afcb82e3b46862321365b3b6" name="MountC_Att &lt;1&gt;" uid="MSz22XXw47W1MK915">
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+               <Instance entityUid="JFj*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Flange_Screw_M6 &lt;5&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MSz22XXw47W1MK915.MPWlzZAC3QqffQmIF" uid="Mi6184OflXHtdRpOq">
+                  <Transform>
+                     <Rotation>0.970441130 0.000000000 -0.241337965 -0.000000000 1.000000000 -0.000000000 0.241337965 0.000000000 0.970441130 </Rotation>
+                     <Translation>1.156952865 -5.775316861 0.943364777 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFn*:*33ebf10ae9ba9d0a6bc05f85" name="Oval_Head_M4 &lt;12&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MSz22XXw47W1MK915.MmZeARsj/DzBKkBq6" uid="MFea5bKjnhLz1K2mf">
+                  <Transform>
+                     <Rotation>-0.000000000 0.749543294 -0.661955324 -1.000000000 0.000000000 0.000000000 0.000000000 0.661955324 0.749543294 </Rotation>
+                     <Translation>1.128198207 -5.879282049 0.935945287 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFj*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Flange_Screw_M6 &lt;6&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MSz22XXw47W1MK915.MPWlzZAC3QqffQmIF" uid="MTlKCya9SHjB3KY3c">
+                  <Transform>
+                     <Rotation>0.970441130 0.000000000 -0.241337965 -0.000000000 1.000000000 -0.000000000 0.241337965 0.000000000 0.970441130 </Rotation>
+                     <Translation>1.140608858 -5.775316861 1.009085466 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JF3*:*33ebf10ae9ba9d0a6bc05f85" name="AilBrk_L &lt;1&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MSz22XXw47W1MK915.MmZeARsj/DzBKkBq6" uid="MOtrewAWXUwC+yCgI">
+                  <Transform>
+                     <Rotation>0.896187316 0.000000000 -0.443675889 0.000000000 1.000000000 0.000000000 0.443675889 -0.000000000 0.896187316 </Rotation>
+                     <Translation>1.062240762 -5.885776861 0.910584901 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFn*:*33ebf10ae9ba9d0a6bc05f85" name="Oval_Head_M4 &lt;5&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MSz22XXw47W1MK915.MmZeARsj/DzBKkBq6" uid="Mf3tdOP9LggTYHH14">
+                  <Transform>
+                     <Rotation>-0.000000000 0.895459406 -0.445143182 -1.000000000 0.000000000 0.000000000 0.000000000 0.445143182 0.895459406 </Rotation>
+                     <Translation>1.118652358 -5.879282049 0.953514528 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFL*:*33ebf10ae9ba9d0a6bc05f85" name="AilBrk_R &lt;1&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MSz22XXw47W1MK915.MM9Un1hgpKfy7vP8W" uid="MiDd1aPzC7AmB5+Mp">
+                  <Transform>
+                     <Rotation>0.896187316 0.000000000 -0.443675889 0.000000000 1.000000000 0.000000000 0.443675889 -0.000000000 0.896187316 </Rotation>
+                     <Translation>1.062307328 -5.762856861 0.910629904 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFj*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Flange_Screw_M6 &lt;3&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MSz22XXw47W1MK915.MPWlzZAC3QqffQmIF" uid="MqSZpfp9YSBbsaBrF">
+                  <Transform>
+                     <Rotation>0.970441130 0.000000000 -0.241337965 -0.000000000 1.000000000 -0.000000000 0.241337965 0.000000000 0.970441130 </Rotation>
+                     <Translation>1.148780861 -5.873316861 0.976225121 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFn*:*33ebf10ae9ba9d0a6bc05f85" name="Oval_Head_M4 &lt;8&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MSz22XXw47W1MK915.MmZeARsj/DzBKkBq6" uid="M8ZVezsXF3xeW1I5N">
+                  <Transform>
+                     <Rotation>-0.000000000 0.972913302 0.231170296 -1.000000000 -0.000000000 0.000000000 0.000000000 -0.231170296 0.972913302 </Rotation>
+                     <Translation>1.100373686 -5.879282049 0.923765174 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFX*:*33ebf10ae9ba9d0a6bc05f85" name="Washer &lt;1&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MSz22XXw47W1MK915.MmZeARsj/DzBKkBq6" uid="MkHX3DZhE2z2g0xVX">
+                  <Transform>
+                     <Rotation>-0.000000000 0.895459406 -0.445143182 -1.000000000 0.000000000 0.000000000 0.000000000 0.445143182 0.895459406 </Rotation>
+                     <Translation>1.135364110 -5.860776861 0.922756362 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFn*:*33ebf10ae9ba9d0a6bc05f85" name="Oval_Head_M4 &lt;11&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MSz22XXw47W1MK915.MM9Un1hgpKfy7vP8W" uid="MmuvOfb8ZplkGq3Np">
+                  <Transform>
+                     <Rotation>-0.000000000 -0.735940959 -0.677045718 1.000000000 -0.000000000 -0.000000000 -0.000000000 -0.677045718 0.735940959 </Rotation>
+                     <Translation>1.109126722 -5.769351674 0.971101898 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFj*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Flange_Screw_M6 &lt;4&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MSz22XXw47W1MK915.MPWlzZAC3QqffQmIF" uid="MTdQBJCEEfqjmUBcA">
+                  <Transform>
+                     <Rotation>0.970441130 0.000000000 -0.241337965 -0.000000000 1.000000000 -0.000000000 0.241337965 0.000000000 0.970441130 </Rotation>
+                     <Translation>1.148780861 -5.775316861 0.976225121 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFX*:*33ebf10ae9ba9d0a6bc05f85" name="Washer &lt;2&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MSz22XXw47W1MK915.MM9Un1hgpKfy7vP8W" uid="MgCHrT9seN9nl6InV">
+                  <Transform>
+                     <Rotation>-0.000000000 -0.895459406 -0.445143182 1.000000000 -0.000000000 -0.000000000 -0.000000000 -0.445143182 0.895459406 </Rotation>
+                     <Translation>1.135384323 -5.787856861 0.922774490 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFb*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Bolt_M10 &lt;3&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MSz22XXw47W1MK915.MPWlzZAC3QqffQmIF" uid="MukhEgMjWSJorQ4jt">
+                  <Transform>
+                     <Rotation>-0.000000000 0.895459406 -0.445143182 -1.000000000 -0.000000000 0.000000000 -0.000000000 0.445143182 0.895459406 </Rotation>
+                     <Translation>1.118700530 -5.794166861 0.990989636 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFn*:*33ebf10ae9ba9d0a6bc05f85" name="Oval_Head_M4 &lt;1&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MSz22XXw47W1MK915.MmZeARsj/DzBKkBq6" uid="MxA7Yd0s0D517KAK1">
+                  <Transform>
+                     <Rotation>-0.000000000 0.972913302 0.231170296 -1.000000000 -0.000000000 0.000000000 0.000000000 -0.231170296 0.972913302 </Rotation>
+                     <Translation>1.120360418 -5.879282049 0.923188935 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFj*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Flange_Screw_M6 &lt;2&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MSz22XXw47W1MK915.MPWlzZAC3QqffQmIF" uid="Mk8KOGwePKUjRo1ID">
+                  <Transform>
+                     <Rotation>0.970441130 0.000000000 -0.241337965 -0.000000000 1.000000000 -0.000000000 0.241337965 0.000000000 0.970441130 </Rotation>
+                     <Translation>1.156952865 -5.873316861 0.943364777 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFn*:*33ebf10ae9ba9d0a6bc05f85" name="Oval_Head_M4 &lt;7&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MSz22XXw47W1MK915.MM9Un1hgpKfy7vP8W" uid="MYNAivXJgqbOVzpSM">
+                  <Transform>
+                     <Rotation>-0.000000000 -0.895459406 -0.445143182 1.000000000 -0.000000000 -0.000000000 -0.000000000 -0.445143182 0.895459406 </Rotation>
+                     <Translation>1.118672571 -5.769351674 0.953532656 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFX*:*33ebf10ae9ba9d0a6bc05f85" name="Washer &lt;3&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MSz22XXw47W1MK915.MPWlzZAC3QqffQmIF" uid="Mx3BowJ7bEGEX3DPx">
+                  <Transform>
+                     <Rotation>0.000000000 -0.895459406 -0.445143182 1.000000000 0.000000000 0.000000000 0.000000000 -0.445143182 0.895459406 </Rotation>
+                     <Translation>1.118700530 -5.845316861 0.990989636 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFn*:*33ebf10ae9ba9d0a6bc05f85" name="Oval_Head_M4 &lt;4&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MSz22XXw47W1MK915.MmZeARsj/DzBKkBq6" uid="MZ7sr4xVmZ70kJtAD">
+                  <Transform>
+                     <Rotation>-0.000000000 0.735940959 -0.677045718 -1.000000000 0.000000000 0.000000000 0.000000000 0.677045718 0.735940959 </Rotation>
+                     <Translation>1.109106509 -5.879282049 0.971083770 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFb*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Bolt_M10 &lt;2&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MSz22XXw47W1MK915.MmZeARsj/DzBKkBq6" uid="MwOABZJJe6gLViVra">
+                  <Transform>
+                     <Rotation>-0.000000000 0.895459406 -0.445143182 -1.000000000 0.000000000 0.000000000 0.000000000 0.445143182 0.895459406 </Rotation>
+                     <Translation>1.135364110 -5.851626861 0.922756362 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFn*:*33ebf10ae9ba9d0a6bc05f85" name="Oval_Head_M4 &lt;3&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MSz22XXw47W1MK915.MM9Un1hgpKfy7vP8W" uid="MBEAXuTA2mU1nQRWt">
+                  <Transform>
+                     <Rotation>-0.000000000 -0.972913302 0.231170296 1.000000000 -0.000000000 0.000000000 -0.000000000 0.231170296 0.972913302 </Rotation>
+                     <Translation>1.100393899 -5.769351674 0.923783302 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFn*:*33ebf10ae9ba9d0a6bc05f85" name="Oval_Head_M4 &lt;6&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MSz22XXw47W1MK915.MmZeARsj/DzBKkBq6" uid="MxpqgPFjG7XXQxN9t">
+                  <Transform>
+                     <Rotation>-0.000000000 0.972913302 0.231170296 -1.000000000 -0.000000000 0.000000000 0.000000000 -0.231170296 0.972913302 </Rotation>
+                     <Translation>1.080386955 -5.879282049 0.924341413 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFn*:*33ebf10ae9ba9d0a6bc05f85" name="Oval_Head_M4 &lt;10&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MSz22XXw47W1MK915.MM9Un1hgpKfy7vP8W" uid="Mey3ymq+kqOuqm+Rb">
+                  <Transform>
+                     <Rotation>-0.000000000 -0.749543294 -0.661955324 1.000000000 -0.000000000 -0.000000000 -0.000000000 -0.661955324 0.749543294 </Rotation>
+                     <Translation>1.128218420 -5.769351674 0.935963415 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFH*:*33ebf10ae9ba9d0a6bc05f85" name="AilBrk_C &lt;1&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MSz22XXw47W1MK915.MPWlzZAC3QqffQmIF" uid="M/qoM9ywbdNfhBSib">
+                  <Transform>
+                     <Rotation>-0.000000000 0.970835122 -0.239748130 -1.000000000 -0.000000000 0.000000000 0.000000000 0.239748130 0.970835122 </Rotation>
+                     <Translation>1.175661748 -5.037316861 0.938543087 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFj*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Flange_Screw_M6 &lt;1&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MSz22XXw47W1MK915.MPWlzZAC3QqffQmIF" uid="M0NA1zfqpuQ+YoVN1">
+                  <Transform>
+                     <Rotation>0.970441130 0.000000000 -0.241337965 -0.000000000 1.000000000 -0.000000000 0.241337965 0.000000000 0.970441130 </Rotation>
+                     <Translation>1.140608858 -5.873316861 1.009085466 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFn*:*33ebf10ae9ba9d0a6bc05f85" name="Oval_Head_M4 &lt;9&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MSz22XXw47W1MK915.MM9Un1hgpKfy7vP8W" uid="MknBsxVm9enakIrcO">
+                  <Transform>
+                     <Rotation>-0.000000000 -0.972913302 0.231170296 1.000000000 -0.000000000 0.000000000 -0.000000000 0.231170296 0.972913302 </Rotation>
+                     <Translation>1.120380630 -5.769351674 0.923207063 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFX*:*33ebf10ae9ba9d0a6bc05f85" name="Washer &lt;4&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MSz22XXw47W1MK915.MPWlzZAC3QqffQmIF" uid="MY8Pt5YtL0TNnJ3Qq">
+                  <Transform>
+                     <Rotation>-0.000000000 0.895459406 -0.445143182 -1.000000000 -0.000000000 0.000000000 -0.000000000 0.445143182 0.895459406 </Rotation>
+                     <Translation>1.118700530 -5.803316861 0.990989636 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFb*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Bolt_M10 &lt;1&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MSz22XXw47W1MK915.MM9Un1hgpKfy7vP8W" uid="M3xnlGE+vEyAtGT0p">
+                  <Transform>
+                     <Rotation>-0.000000000 -0.895459406 -0.445143182 1.000000000 -0.000000000 -0.000000000 -0.000000000 -0.445143182 0.895459406 </Rotation>
+                     <Translation>1.135384323 -5.797006861 0.922774490 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFf*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Flange_Nut_M10 &lt;1&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MSz22XXw47W1MK915.MPWlzZAC3QqffQmIF" uid="MlXHvQ8ffj13yTiV/">
+                  <Transform>
+                     <Rotation>0.895459406 -0.000000000 -0.445143182 0.000000000 1.000000000 0.000000000 0.445143182 -0.000000000 0.895459406 </Rotation>
+                     <Translation>1.118700530 -5.857616861 0.990989636 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFn*:*33ebf10ae9ba9d0a6bc05f85" name="Oval_Head_M4 &lt;2&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MSz22XXw47W1MK915.MM9Un1hgpKfy7vP8W" uid="MjYG24xROo3Ueyrad">
+                  <Transform>
+                     <Rotation>-0.000000000 -0.972913302 0.231170296 1.000000000 -0.000000000 0.000000000 -0.000000000 0.231170296 0.972913302 </Rotation>
+                     <Translation>1.080407168 -5.769351674 0.924359541 </Translation>
+                  </Transform>
+               </Instance>
+            </Instance>
+            <Instance entityUid="c6c1bd5e20d35894fc81b096" name="MountR_Att &lt;1&gt;" uid="MoR5T76x6w63v/oUR">
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+               <Instance entityUid="JFn*:*33ebf10ae9ba9d0a6bc05f85" name="Oval_Head_M4 &lt;5&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MoR5T76x6w63v/oUR.M+SX3wspVxM/6vOIP" uid="MkQEPCgDJF55Nn5FU">
+                  <Transform>
+                     <Rotation>-0.000000000 0.972533357 0.232763547 -1.000000000 -0.000000000 0.000000000 0.000000000 -0.232763547 0.972533357 </Rotation>
+                     <Translation>1.080389625 -3.651282049 0.924431460 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFn*:*33ebf10ae9ba9d0a6bc05f85" name="Oval_Head_M4 &lt;8&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MoR5T76x6w63v/oUR.M+SX3wspVxM/6vOIP" uid="M5HRcKmYopIql/Yo/">
+                  <Transform>
+                     <Rotation>-0.000000000 0.896187316 -0.443675889 -1.000000000 0.000000000 0.000000000 0.000000000 0.443675889 0.896187316 </Rotation>
+                     <Translation>1.118702760 -3.651282049 0.953541860 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFf*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Flange_Nut_M10 &lt;1&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MoR5T76x6w63v/oUR.MxZMVFlE/xO3xqv/a" uid="MmunjPiveLQn5+t2f">
+                  <Transform>
+                     <Rotation>0.896187316 0.000000000 -0.443675889 0.000000000 1.000000000 0.000000000 0.443675889 -0.000000000 0.896187316 </Rotation>
+                     <Translation>1.118899993 -3.629616861 0.991007947 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFj*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Flange_Screw_M6 &lt;2&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MoR5T76x6w63v/oUR.MxZMVFlE/xO3xqv/a" uid="MJYevxW3rSCnY/bOk">
+                  <Transform>
+                     <Rotation>0.970835122 0.000000000 -0.239748130 -0.000000000 1.000000000 0.000000000 0.239748130 -0.000000000 0.970835122 </Rotation>
+                     <Translation>1.157074271 -3.547316861 0.943320497 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFX*:*33ebf10ae9ba9d0a6bc05f85" name="Washer &lt;4&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MoR5T76x6w63v/oUR.MxZMVFlE/xO3xqv/a" uid="Mn5LDRFMH1vZcAOMN">
+                  <Transform>
+                     <Rotation>0.000000000 -0.896187316 -0.443675889 1.000000000 -0.000000000 0.000000000 -0.000000000 -0.443675889 0.896187316 </Rotation>
+                     <Translation>1.118899993 -3.617316861 0.991007947 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFn*:*33ebf10ae9ba9d0a6bc05f85" name="Oval_Head_M4 &lt;10&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MoR5T76x6w63v/oUR.M+SX3wspVxM/6vOIP" uid="MqUA1O5lg0zlhqBf2">
+                  <Transform>
+                     <Rotation>-0.000000000 0.750626523 -0.660726739 -1.000000000 0.000000000 0.000000000 0.000000000 0.660726739 0.750626523 </Rotation>
+                     <Translation>1.128219819 -3.651282049 0.935957006 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFn*:*33ebf10ae9ba9d0a6bc05f85" name="Oval_Head_M4 &lt;6&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MoR5T76x6w63v/oUR.M+SX3wspVxM/6vOIP" uid="McEixFSKWcqgDuw2j">
+                  <Transform>
+                     <Rotation>-0.000000000 0.737048923 -0.675839393 -1.000000000 0.000000000 0.000000000 0.000000000 0.675839393 0.737048923 </Rotation>
+                     <Translation>1.109185701 -3.651282049 0.971126713 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFj*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Flange_Screw_M6 &lt;5&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MoR5T76x6w63v/oUR.MxZMVFlE/xO3xqv/a" uid="MgdO97SY656S8/zN6">
+                  <Transform>
+                     <Rotation>0.970835122 0.000000000 -0.239748130 -0.000000000 1.000000000 0.000000000 0.239748130 -0.000000000 0.970835122 </Rotation>
+                     <Translation>1.148956101 -3.645316861 0.976194183 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFX*:*33ebf10ae9ba9d0a6bc05f85" name="Washer &lt;2&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MoR5T76x6w63v/oUR.MxZMVFlE/xO3xqv/a" uid="MBZTxoYp1/PXheJZa">
+                  <Transform>
+                     <Rotation>-0.000000000 0.896187316 -0.443675889 -1.000000000 0.000000000 0.000000000 0.000000000 0.443675889 0.896187316 </Rotation>
+                     <Translation>1.118899993 -3.575316861 0.991007947 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFj*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Flange_Screw_M6 &lt;1&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MoR5T76x6w63v/oUR.MxZMVFlE/xO3xqv/a" uid="MwxCP7I3ae21b62zU">
+                  <Transform>
+                     <Rotation>0.970835122 0.000000000 -0.239748130 -0.000000000 1.000000000 0.000000000 0.239748130 -0.000000000 0.970835122 </Rotation>
+                     <Translation>1.148956101 -3.547316861 0.976194183 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFb*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Bolt_M10 &lt;1&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MoR5T76x6w63v/oUR.M+SX3wspVxM/6vOIP" uid="MHwf3hmMCujITl9ss">
+                  <Transform>
+                     <Rotation>-0.000000000 0.896187316 -0.443675889 -1.000000000 0.000000000 0.000000000 0.000000000 0.443675889 0.896187316 </Rotation>
+                     <Translation>1.135364110 -3.623626861 0.922756362 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFL*:*33ebf10ae9ba9d0a6bc05f85" name="AilBrk_R &lt;1&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MoR5T76x6w63v/oUR.M3MVHoPYnsappUOLQ" uid="MO5CQXQu3R5KFptCm">
+                  <Transform>
+                     <Rotation>0.896187316 -0.000000000 -0.443675889 0.000000000 1.000000000 -0.000000000 0.443675889 -0.000000000 0.896187316 </Rotation>
+                     <Translation>1.062240732 -3.534856861 0.910584921 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFj*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Flange_Screw_M6 &lt;3&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MoR5T76x6w63v/oUR.MxZMVFlE/xO3xqv/a" uid="M/MNF+2i3BYYnQw7T">
+                  <Transform>
+                     <Rotation>0.970835122 0.000000000 -0.239748130 -0.000000000 1.000000000 0.000000000 0.239748130 -0.000000000 0.970835122 </Rotation>
+                     <Translation>1.140837931 -3.547316861 1.009067868 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFb*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Bolt_M10 &lt;2&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MoR5T76x6w63v/oUR.M3MVHoPYnsappUOLQ" uid="Mt6VGocr45ntt4AQu">
+                  <Transform>
+                     <Rotation>-0.000000000 -0.896187316 -0.443675889 1.000000000 -0.000000000 -0.000000000 -0.000000000 -0.443675889 0.896187316 </Rotation>
+                     <Translation>1.135364081 -3.569006861 0.922756383 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFH*:*33ebf10ae9ba9d0a6bc05f85" name="AilBrk_C &lt;1&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MoR5T76x6w63v/oUR.MxZMVFlE/xO3xqv/a" uid="MmFvNrvRc6HuzRVfL">
+                  <Transform>
+                     <Rotation>-0.000000000 0.970835122 -0.239748130 -1.000000000 -0.000000000 0.000000000 0.000000000 0.239748130 0.970835122 </Rotation>
+                     <Translation>1.175661748 -2.809316861 0.938543087 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JF3*:*33ebf10ae9ba9d0a6bc05f85" name="AilBrk_L &lt;1&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MoR5T76x6w63v/oUR.M+SX3wspVxM/6vOIP" uid="MV3QEghtR7qPsR3BL">
+                  <Transform>
+                     <Rotation>0.896187316 0.000000000 -0.443675889 0.000000000 1.000000000 0.000000000 0.443675889 -0.000000000 0.896187316 </Rotation>
+                     <Translation>1.062240762 -3.657776861 0.910584901 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFn*:*33ebf10ae9ba9d0a6bc05f85" name="Oval_Head_M4 &lt;7&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MoR5T76x6w63v/oUR.M3MVHoPYnsappUOLQ" uid="MicS7f3uUlrUtAS3r">
+                  <Transform>
+                     <Rotation>-0.000000000 -0.737048923 -0.675839393 1.000000000 -0.000000000 -0.000000000 -0.000000000 -0.675839393 0.737048923 </Rotation>
+                     <Translation>1.109185671 -3.541351674 0.971126734 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFj*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Flange_Screw_M6 &lt;6&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MoR5T76x6w63v/oUR.MxZMVFlE/xO3xqv/a" uid="Macpg65JEvwC36y0x">
+                  <Transform>
+                     <Rotation>0.970835122 0.000000000 -0.239748130 -0.000000000 1.000000000 0.000000000 0.239748130 -0.000000000 0.970835122 </Rotation>
+                     <Translation>1.140837931 -3.645316861 1.009067868 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFX*:*33ebf10ae9ba9d0a6bc05f85" name="Washer &lt;1&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MoR5T76x6w63v/oUR.M+SX3wspVxM/6vOIP" uid="MnAyiXlblBOutMoEH">
+                  <Transform>
+                     <Rotation>-0.000000000 0.896187316 -0.443675889 -1.000000000 0.000000000 0.000000000 0.000000000 0.443675889 0.896187316 </Rotation>
+                     <Translation>1.135364110 -3.632776861 0.922756362 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFn*:*33ebf10ae9ba9d0a6bc05f85" name="Oval_Head_M4 &lt;4&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MoR5T76x6w63v/oUR.M3MVHoPYnsappUOLQ" uid="MD5/hnPtMkhYSEecg">
+                  <Transform>
+                     <Rotation>-0.000000000 -0.972533357 0.232763547 1.000000000 -0.000000000 0.000000000 -0.000000000 0.232763547 0.972533357 </Rotation>
+                     <Translation>1.080389595 -3.541351674 0.924431480 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFn*:*33ebf10ae9ba9d0a6bc05f85" name="Oval_Head_M4 &lt;12&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MoR5T76x6w63v/oUR.M+SX3wspVxM/6vOIP" uid="M9U5oT99/E3r/p/Mf">
+                  <Transform>
+                     <Rotation>-0.000000000 0.972533357 0.232763547 -1.000000000 -0.000000000 0.000000000 0.000000000 -0.232763547 0.972533357 </Rotation>
+                     <Translation>1.120361146 -3.651282049 0.923213509 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFn*:*33ebf10ae9ba9d0a6bc05f85" name="Oval_Head_M4 &lt;2&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MoR5T76x6w63v/oUR.M3MVHoPYnsappUOLQ" uid="M5I2Nog8FIiEy6378">
+                  <Transform>
+                     <Rotation>-0.000000000 -0.972533357 0.232763547 1.000000000 -0.000000000 0.000000000 -0.000000000 0.232763547 0.972533357 </Rotation>
+                     <Translation>1.100375356 -3.541351674 0.923822505 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFb*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Bolt_M10 &lt;3&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MoR5T76x6w63v/oUR.MxZMVFlE/xO3xqv/a" uid="M+7Jl6Cl2Hj2VWiH7">
+                  <Transform>
+                     <Rotation>-0.000000000 0.896187316 -0.443675889 -1.000000000 0.000000000 0.000000000 0.000000000 0.443675889 0.896187316 </Rotation>
+                     <Translation>1.118899993 -3.566166861 0.991007947 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFn*:*33ebf10ae9ba9d0a6bc05f85" name="Oval_Head_M4 &lt;9&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MoR5T76x6w63v/oUR.M3MVHoPYnsappUOLQ" uid="Mo4umUUVt5PS68+ca">
+                  <Transform>
+                     <Rotation>-0.000000000 -0.896187316 -0.443675889 1.000000000 -0.000000000 -0.000000000 -0.000000000 -0.443675889 0.896187316 </Rotation>
+                     <Translation>1.118702730 -3.541351674 0.953541881 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFX*:*33ebf10ae9ba9d0a6bc05f85" name="Washer &lt;3&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MoR5T76x6w63v/oUR.M3MVHoPYnsappUOLQ" uid="ML0VfjP7j8ZA8PxkJ">
+                  <Transform>
+                     <Rotation>-0.000000000 -0.896187316 -0.443675889 1.000000000 -0.000000000 -0.000000000 -0.000000000 -0.443675889 0.896187316 </Rotation>
+                     <Translation>1.135364081 -3.559856861 0.922756383 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFn*:*33ebf10ae9ba9d0a6bc05f85" name="Oval_Head_M4 &lt;11&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MoR5T76x6w63v/oUR.M+SX3wspVxM/6vOIP" uid="M1niLAwllhKWNNUUO">
+                  <Transform>
+                     <Rotation>-0.000000000 0.972533357 0.232763547 -1.000000000 -0.000000000 0.000000000 0.000000000 -0.232763547 0.972533357 </Rotation>
+                     <Translation>1.100375386 -3.651282049 0.923822484 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFj*:*33ebf10ae9ba9d0a6bc05f85" name="Hex_Flange_Screw_M6 &lt;4&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MoR5T76x6w63v/oUR.MxZMVFlE/xO3xqv/a" uid="MfVNF+v1hG6hrEQbH">
+                  <Transform>
+                     <Rotation>0.970835122 0.000000000 -0.239748130 -0.000000000 1.000000000 0.000000000 0.239748130 -0.000000000 0.970835122 </Rotation>
+                     <Translation>1.157074271 -3.645316861 0.943320497 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFn*:*33ebf10ae9ba9d0a6bc05f85" name="Oval_Head_M4 &lt;3&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MoR5T76x6w63v/oUR.M3MVHoPYnsappUOLQ" uid="M+K/yk6WUt/Ae87uF">
+                  <Transform>
+                     <Rotation>-0.000000000 -0.972533357 0.232763547 1.000000000 -0.000000000 0.000000000 -0.000000000 0.232763547 0.972533357 </Rotation>
+                     <Translation>1.120361116 -3.541351674 0.923213530 </Translation>
+                  </Transform>
+               </Instance>
+               <Instance entityUid="JFn*:*33ebf10ae9ba9d0a6bc05f85" name="Oval_Head_M4 &lt;1&gt;" rigidGroup="root-MTlfuJuqExA51z8zW-MoR5T76x6w63v/oUR.M3MVHoPYnsappUOLQ" uid="MhxVyEw8MPPWE1Woy">
+                  <Transform>
+                     <Rotation>-0.000000000 -0.750626523 -0.660726739 1.000000000 -0.000000000 -0.000000000 -0.000000000 -0.660726739 0.750626523 </Rotation>
+                     <Translation>1.128219789 -3.541351674 0.935957027 </Translation>
+                  </Transform>
+               </Instance>
+            </Instance>
+         </Instance>
+         <Instance entityUid="b39f1e1516dba6d214ddd0d3" name="Actuator &lt;1&gt;" uid="M9Hwc2W43vjriEPBZ">
+            <Transform>
+               <Rotation>0.978294036 -0.207221571 -0.000000000 -0.000000000 0.000000000 -1.000000000 0.207221571 0.978294036 0.000000000 </Rotation>
+               <Translation>0.491686385 -3.127050572 1.491130614 </Translation>
+            </Transform>
+            <Instance entityUid="JHD*:*33ebf10ae9ba9d0a6bc05f85" name="Cylinder &lt;1&gt;" uid="McUijGDHOURbHjh4P">
+               <Transform>
+                  <Rotation>0.999515154 -0.031136103 -0.000000000 0.031136103 0.999515154 -0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                  <Translation>0.396148597 -0.622784671 0.469266541 </Translation>
+               </Transform>
+            </Instance>
+            <Instance entityUid="KF/D*:*33ebf10ae9ba9d0a6bc05f85" name="Piston &lt;1&gt;" uid="Mz73bv9TOi4J2D21X">
+               <Transform>
+                  <Rotation>-0.031136103 -0.000000000 0.999515154 0.999515154 -0.000000000 0.031136103 -0.000000000 1.000000000 0.000000000 </Rotation>
+                  <Translation>0.509963128 -0.619239211 0.469266541 </Translation>
+               </Transform>
+            </Instance>
+         </Instance>
+      </InstanceTree>
+      <Constraints/>
+      <Joints>
+         <Revolute name="Rev_MR_ActAil">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>M9Hwc2W43vjriEPBZ</Uid>
+                  <Uid>Mz73bv9TOi4J2D21X</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>-0.000000000 -1.000000000 0.000000000 0.000000000 -0.000000000 -1.000000000 1.000000000 0.000000000 0.000000000 </Rotation>
+                  <Translation>0.000000000 -0.000000252 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MTlfuJuqExA51z8zW</Uid>
+                  <Uid>MoR5T76x6w63v/oUR</Uid>
+                  <Uid>MmFvNrvRc6HuzRVfL</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>-0.000000000 -0.000000000 -1.000000000 1.000000000 0.000000000 -0.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>0.787000000 -0.042527953 0.064543254 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Revolute name="Rev_MR_ActMount">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MB+dfD67M9ZqaC5Q/</Uid>
+                  <Uid>M95SmkTHBXwVBq5xl</Uid>
+                  <Uid>MykVxJSaEK7AwIWk7</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 -0.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 -0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.931552569 -0.000894172 -3.596317113 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>M9Hwc2W43vjriEPBZ</Uid>
+                  <Uid>McUijGDHOURbHjh4P</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 -0.000000000 1.000000000 </Rotation>
+                  <Translation>-0.079000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Revolute name="Rev_MC_ActMount">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MB+dfD67M9ZqaC5Q/</Uid>
+                  <Uid>M/4QmUUGKroTxITfY</Uid>
+                  <Uid>MhcU4CaIWPJvp7eSW</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 -0.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 -0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.931552569 -0.000894172 -3.596317113 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MfxNmSk7V/ttL26zl</Uid>
+                  <Uid>McUijGDHOURbHjh4P</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 -0.000000000 1.000000000 </Rotation>
+                  <Translation>-0.079000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Cylindrical name="Cyl_MC_ActAil">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MfxNmSk7V/ttL26zl</Uid>
+                  <Uid>Mz73bv9TOi4J2D21X</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>-0.000000000 1.000000000 -0.000000000 0.000000000 0.000000000 1.000000000 1.000000000 0.000000000 -0.000000000 </Rotation>
+                  <Translation>0.000000000 -0.000000252 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MTlfuJuqExA51z8zW</Uid>
+                  <Uid>MSz22XXw47W1MK915</Uid>
+                  <Uid>M/qoM9ywbdNfhBSib</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 1.000000000 1.000000000 0.000000000 -0.000000000 -0.000000000 1.000000000 -0.000000000 </Rotation>
+                  <Translation>0.787000000 -0.042527953 0.064543254 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Cylindrical>
+         <Revolute name="Rev_ML_ActMount">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MB+dfD67M9ZqaC5Q/</Uid>
+                  <Uid>MfQcGmWUtsY+lsNc0</Uid>
+                  <Uid>MOasAqiQSFUv0O+4V</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 -0.000000000 0.000000000 -1.000000000 0.000000000 0.000000000 -0.000000000 -1.000000000 </Rotation>
+                  <Translation>0.931552569 -0.000894172 -3.596317113 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MbQ/ALXZrf4lcFIIg</Uid>
+                  <Uid>McUijGDHOURbHjh4P</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 0.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 0.000000000 -0.000000000 1.000000000 </Rotation>
+                  <Translation>-0.079000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Revolute>
+         <Cylindrical name="Cyl_ML_ActAil">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MbQ/ALXZrf4lcFIIg</Uid>
+                  <Uid>Mz73bv9TOi4J2D21X</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 -0.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 1.000000000 0.000000000 </Rotation>
+                  <Translation>0.000000000 -0.000000252 0.000000000 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MTlfuJuqExA51z8zW</Uid>
+                  <Uid>MyJfS6L5dlzWGQOOA</Uid>
+                  <Uid>MgfP0PqmqTsJlCfNr</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>-0.000000000 -0.000000000 -1.000000000 1.000000000 0.000000000 -0.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                  <Translation>0.787000000 -0.042527953 0.064543254 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Cylindrical>
+         <Cylindrical name="Cyl_MC_BrkLAil">
+            <BaseFrame>
+               <InstancePath>
+                  <Uid>MB+dfD67M9ZqaC5Q/</Uid>
+                  <Uid>MhVrz62160gcdqCA8</Uid>
+                  <Uid>Mh5I63vVHZm4lscHu</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>1.000000000 -0.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 1.000000000 0.000000000 </Rotation>
+                  <Translation>0.070932401 0.009000000 -0.021535157 </Translation>
+               </Transform>
+            </BaseFrame>
+            <FollowerFrame>
+               <InstancePath>
+                  <Uid>MTlfuJuqExA51z8zW</Uid>
+                  <Uid>MSz22XXw47W1MK915</Uid>
+                  <Uid>MkHX3DZhE2z2g0xVX</Uid>
+               </InstancePath>
+               <Transform>
+                  <Rotation>0.000000000 0.000000000 1.000000000 1.000000000 -0.000000000 -0.000000000 0.000000000 1.000000000 -0.000000000 </Rotation>
+                  <Translation>0.000000000 0.000000000 0.000000000 </Translation>
+               </Transform>
+            </FollowerFrame>
+         </Cylindrical>
+      </Joints>
+   </RootAssembly>
+   <Assemblies>
+      <Assembly name="MountC" uid="95e65e37a5e97fa6133c07a4">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <Constraints/>
+         <Joints/>
+      </Assembly>
+      <Assembly name="MountR_Att" uid="c6c1bd5e20d35894fc81b096">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <Constraints/>
+         <Joints/>
+      </Assembly>
+      <Assembly name="MountR_ArmR" uid="1f011b7c72a0d4ab38543787">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <Constraints/>
+         <Joints/>
+      </Assembly>
+      <Assembly name="MountC_Att" uid="afcb82e3b46862321365b3b6">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <Constraints/>
+         <Joints/>
+      </Assembly>
+      <Assembly name="MountL" uid="53869050c77a8de79a403c6c">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <Constraints/>
+         <Joints/>
+      </Assembly>
+      <Assembly name="MountL_BrkR" uid="600eae19eabc1d0fc31d5a66">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <Constraints/>
+         <Joints/>
+      </Assembly>
+      <Assembly name="MountL_Att" uid="8480e83a3724a9b37280313d">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <Constraints/>
+         <Joints/>
+      </Assembly>
+      <Assembly name="MountR" uid="e7c4e66bb37aef1981a21996">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <Constraints/>
+         <Joints/>
+      </Assembly>
+      <Assembly name="Actuator" uid="b39f1e1516dba6d214ddd0d3">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <Constraints/>
+         <Joints>
+            <Cylindrical name="Cyl_Actuator">
+               <BaseFrame>
+                  <InstancePath>
+                     <Uid>McUijGDHOURbHjh4P</Uid>
+                  </InstancePath>
+                  <Transform>
+                     <Rotation>-0.000000000 0.000000000 1.000000000 1.000000000 0.000000000 0.000000000 0.000000000 1.000000000 -0.000000000 </Rotation>
+                     <Translation>-0.048460000 0.000000000 0.000000000 </Translation>
+                  </Transform>
+               </BaseFrame>
+               <FollowerFrame>
+                  <InstancePath>
+                     <Uid>Mz73bv9TOi4J2D21X</Uid>
+                  </InstancePath>
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 -0.000000000 -0.000000000 1.000000000 -0.000000000 0.000000000 0.000000000 1.000000000 </Rotation>
+                     <Translation>-0.000000000 0.000000000 -0.158700381 </Translation>
+                  </Transform>
+               </FollowerFrame>
+            </Cylindrical>
+         </Joints>
+      </Assembly>
+      <Assembly name="MountC_BrkL" uid="448056c370bdf28bd08ff814">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <Constraints/>
+         <Joints/>
+      </Assembly>
+      <Assembly name="MountC_BrkR" uid="e897da5ab566d8557956f81e">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <Constraints/>
+         <Joints/>
+      </Assembly>
+      <Assembly name="Aileron_Att" uid="dcb046393e6fcc7aba6626e8">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <Constraints/>
+         <Joints>
+            <Weld name="Fix_MR_AttR">
+               <BaseFrame>
+                  <InstancePath>
+                     <Uid>MfcB8EFD6oCH2x3SM</Uid>
+                  </InstancePath>
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 0.000000000 -0.000000000 0.000000000 1.000000000 -0.000000000 -1.000000000 0.000000000 </Rotation>
+                     <Translation>0.051553406 -0.725540000 0.004736408 </Translation>
+                  </Transform>
+               </BaseFrame>
+               <FollowerFrame>
+                  <InstancePath>
+                     <Uid>MoR5T76x6w63v/oUR</Uid>
+                     <Uid>MO5CQXQu3R5KFptCm</Uid>
+                  </InstancePath>
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 -0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 -0.000000000 </Rotation>
+                     <Translation>0.054425150 0.000000000 0.004881966 </Translation>
+                  </Transform>
+               </FollowerFrame>
+            </Weld>
+            <Weld name="Fix_MR_AttC">
+               <BaseFrame>
+                  <InstancePath>
+                     <Uid>MoR5T76x6w63v/oUR</Uid>
+                     <Uid>MmFvNrvRc6HuzRVfL</Uid>
+                  </InstancePath>
+                  <Transform>
+                     <Rotation>-0.000000000 -1.000000000 -0.000000000 0.000000000 0.000000000 -1.000000000 1.000000000 -0.000000000 0.000000000 </Rotation>
+                     <Translation>0.787000000 0.000000000 0.047910605 </Translation>
+                  </Transform>
+               </BaseFrame>
+               <FollowerFrame>
+                  <InstancePath>
+                     <Uid>MfcB8EFD6oCH2x3SM</Uid>
+                  </InstancePath>
+                  <Transform>
+                     <Rotation>0.215876902 0.000000000 -0.976420587 0.000000000 1.000000000 0.000000000 0.976420587 -0.000000000 0.215876902 </Rotation>
+                     <Translation>0.121521888 -0.787000000 0.021368926 </Translation>
+                  </Transform>
+               </FollowerFrame>
+            </Weld>
+            <Weld name="Fix_ML_AttR">
+               <BaseFrame>
+                  <InstancePath>
+                     <Uid>MyJfS6L5dlzWGQOOA</Uid>
+                     <Uid>MuTkX5BParRXrdLNs</Uid>
+                  </InstancePath>
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 -0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 -0.000000000 </Rotation>
+                     <Translation>0.054425150 0.000000000 0.004881966 </Translation>
+                  </Transform>
+               </BaseFrame>
+               <FollowerFrame>
+                  <InstancePath>
+                     <Uid>MfcB8EFD6oCH2x3SM</Uid>
+                  </InstancePath>
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 0.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -1.000000000 -0.000000000 </Rotation>
+                     <Translation>0.051553406 -5.181540000 0.004736408 </Translation>
+                  </Transform>
+               </FollowerFrame>
+            </Weld>
+            <Weld name="Fix_MR_AttL">
+               <BaseFrame>
+                  <InstancePath>
+                     <Uid>MoR5T76x6w63v/oUR</Uid>
+                     <Uid>MV3QEghtR7qPsR3BL</Uid>
+                  </InstancePath>
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 -0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 1.000000000 -0.000000000 </Rotation>
+                     <Translation>0.054425150 0.000000000 0.004881966 </Translation>
+                  </Transform>
+               </BaseFrame>
+               <FollowerFrame>
+                  <InstancePath>
+                     <Uid>MfcB8EFD6oCH2x3SM</Uid>
+                  </InstancePath>
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 -0.000000000 -0.000000000 -0.000000000 -1.000000000 -0.000000000 1.000000000 -0.000000000 </Rotation>
+                     <Translation>0.051553424 -0.848460000 0.004736376 </Translation>
+                  </Transform>
+               </FollowerFrame>
+            </Weld>
+            <Weld name="Fix_ML_AttL">
+               <BaseFrame>
+                  <InstancePath>
+                     <Uid>MyJfS6L5dlzWGQOOA</Uid>
+                     <Uid>MT8bcN2zhwSJDskaa</Uid>
+                  </InstancePath>
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 -0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 1.000000000 -0.000000000 </Rotation>
+                     <Translation>0.054425150 0.000000000 0.004881966 </Translation>
+                  </Transform>
+               </BaseFrame>
+               <FollowerFrame>
+                  <InstancePath>
+                     <Uid>MfcB8EFD6oCH2x3SM</Uid>
+                  </InstancePath>
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 -0.000000000 -0.000000000 -0.000000000 -1.000000000 -0.000000000 1.000000000 -0.000000000 </Rotation>
+                     <Translation>0.051553571 -5.304460000 0.004736296 </Translation>
+                  </Transform>
+               </FollowerFrame>
+            </Weld>
+            <Weld name="Fix_ML_AttC">
+               <BaseFrame>
+                  <InstancePath>
+                     <Uid>MyJfS6L5dlzWGQOOA</Uid>
+                     <Uid>MgfP0PqmqTsJlCfNr</Uid>
+                  </InstancePath>
+                  <Transform>
+                     <Rotation>-0.000000000 -1.000000000 -0.000000000 0.000000000 0.000000000 -1.000000000 1.000000000 -0.000000000 0.000000000 </Rotation>
+                     <Translation>0.787000000 0.000000000 0.047910605 </Translation>
+                  </Transform>
+               </BaseFrame>
+               <FollowerFrame>
+                  <InstancePath>
+                     <Uid>MfcB8EFD6oCH2x3SM</Uid>
+                  </InstancePath>
+                  <Transform>
+                     <Rotation>0.215876902 -0.000000000 -0.976420587 -0.000000000 1.000000000 -0.000000000 0.976420587 0.000000000 0.215876902 </Rotation>
+                     <Translation>0.121521888 -5.243000000 0.021368926 </Translation>
+                  </Transform>
+               </FollowerFrame>
+            </Weld>
+            <Weld name="Fix_MC_AttR">
+               <BaseFrame>
+                  <InstancePath>
+                     <Uid>MfcB8EFD6oCH2x3SM</Uid>
+                  </InstancePath>
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 0.000000000 -0.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 0.000000000 </Rotation>
+                     <Translation>0.051633046 -2.953540000 0.004747174 </Translation>
+                  </Transform>
+               </BaseFrame>
+               <FollowerFrame>
+                  <InstancePath>
+                     <Uid>MSz22XXw47W1MK915</Uid>
+                     <Uid>MiDd1aPzC7AmB5+Mp</Uid>
+                  </InstancePath>
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 -0.000000000 0.000000000 0.000000000 1.000000000 0.000000000 -1.000000000 -0.000000000 </Rotation>
+                     <Translation>0.054425150 0.000000000 0.004881966 </Translation>
+                  </Transform>
+               </FollowerFrame>
+            </Weld>
+            <Weld name="Fix_MC_AttL">
+               <BaseFrame>
+                  <InstancePath>
+                     <Uid>MfcB8EFD6oCH2x3SM</Uid>
+                  </InstancePath>
+                  <Transform>
+                     <Rotation>1.000000000 -0.000000000 0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 1.000000000 0.000000000 </Rotation>
+                     <Translation>0.051553424 -3.076460000 0.004736376 </Translation>
+                  </Transform>
+               </BaseFrame>
+               <FollowerFrame>
+                  <InstancePath>
+                     <Uid>MSz22XXw47W1MK915</Uid>
+                     <Uid>MOtrewAWXUwC+yCgI</Uid>
+                  </InstancePath>
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 -0.000000000 0.000000000 0.000000000 -1.000000000 0.000000000 1.000000000 -0.000000000 </Rotation>
+                     <Translation>0.054425150 0.000000000 0.004881966 </Translation>
+                  </Transform>
+               </FollowerFrame>
+            </Weld>
+            <Weld name="Fix_MC_AttC">
+               <BaseFrame>
+                  <InstancePath>
+                     <Uid>MfcB8EFD6oCH2x3SM</Uid>
+                  </InstancePath>
+                  <Transform>
+                     <Rotation>-0.000000000 -0.215876902 0.976420587 -1.000000000 0.000000000 -0.000000000 0.000000000 -0.976420587 -0.215876902 </Rotation>
+                     <Translation>0.121521888 -3.015000000 0.021368926 </Translation>
+                  </Transform>
+               </BaseFrame>
+               <FollowerFrame>
+                  <InstancePath>
+                     <Uid>MSz22XXw47W1MK915</Uid>
+                     <Uid>M/qoM9ywbdNfhBSib</Uid>
+                  </InstancePath>
+                  <Transform>
+                     <Rotation>1.000000000 0.000000000 0.000000000 -0.000000000 -0.000000000 1.000000000 0.000000000 -1.000000000 -0.000000000 </Rotation>
+                     <Translation>0.787000000 0.000000000 0.047910605 </Translation>
+                  </Transform>
+               </FollowerFrame>
+            </Weld>
+         </Joints>
+      </Assembly>
+      <Assembly name="MountR_ArmL" uid="c360203b51ae523fc2cbc787">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <Constraints/>
+         <Joints/>
+      </Assembly>
+      <Assembly name="MountBrackets" uid="e30b9a287a4a9a5d5ffafbf8">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <Constraints/>
+         <Joints/>
+      </Assembly>
+      <Assembly name="MountL_BrkL" uid="f765da84f1eb1adbeda33aa9">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <Constraints/>
+         <Joints/>
+      </Assembly>
+   </Assemblies>
+   <Parts>
+      <Part name="Aileron" uid="JFD*:*33ebf10ae9ba9d0a6bc05f85">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>58.5966999</Mass>
+            <CenterOfMass>0.314506064 -3.022567276 0.018628705 </CenterOfMass>
+            <Inertia>181.454680121 2.355462528 183.547462883 -0.004088548 0.008416610 -0.116727806 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Aileron.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.925490196" g="0.839215686" r="0.760784314"/>
+            <Diffuse a="1.000000000" b="0.925490196" g="0.839215686" r="0.760784314"/>
+            <Specular a="1.000000000" b="0.925490196" g="0.839215686" r="0.760784314"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="AilBrk_C" uid="JFH*:*33ebf10ae9ba9d0a6bc05f85">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>0.467633398</Mass>
+            <CenterOfMass>0.787000001 -0.012187750 0.050181632 </CenterOfMass>
+            <Inertia>0.000409899 0.000790661 0.000549360 0.000027828 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="AilBrk_C.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.839215686" g="0.682352941" r="0.541176471"/>
+            <Diffuse a="1.000000000" b="0.839215686" g="0.682352941" r="0.541176471"/>
+            <Specular a="1.000000000" b="0.839215686" g="0.682352941" r="0.541176471"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="AilBrk_R" uid="JFL*:*33ebf10ae9ba9d0a6bc05f85">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>0.0348370685</Mass>
+            <CenterOfMass>0.054645425 -0.002510918 0.004529452 </CenterOfMass>
+            <Inertia>0.000008985 0.000019218 0.000010384 -0.000000040 -0.000001434 0.000000025 </Inertia>
+         </MassProperties>
+         <GeometryFile name="AilBrk_R.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.839215686" g="0.682352941" r="0.541176471"/>
+            <Diffuse a="1.000000000" b="0.839215686" g="0.682352941" r="0.541176471"/>
+            <Specular a="1.000000000" b="0.839215686" g="0.682352941" r="0.541176471"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Mount_BrkR" uid="JFP*:*33ebf10ae9ba9d0a6bc05f85">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>0.180341766</Mass>
+            <CenterOfMass>0.011853003 -0.005646720 -0.002780501 </CenterOfMass>
+            <Inertia>0.000091917 0.000221621 0.000189279 -0.000004872 0.000047122 0.000016957 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Mount_BrkR.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.262745098" g="0.290196078" r="0.301960784"/>
+            <Diffuse a="1.000000000" b="0.262745098" g="0.290196078" r="0.301960784"/>
+            <Specular a="1.000000000" b="0.262745098" g="0.290196078" r="0.301960784"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Mount" uid="JFT*:*33ebf10ae9ba9d0a6bc05f85">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>0.150018958</Mass>
+            <CenterOfMass>0.930792877 0.021155255 -3.596317066 </CenterOfMass>
+            <Inertia>0.000053811 0.000078730 0.000044829 0.000000000 -0.000000000 -0.000000272 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Mount.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.262745098" g="0.290196078" r="0.301960784"/>
+            <Diffuse a="1.000000000" b="0.262745098" g="0.290196078" r="0.301960784"/>
+            <Specular a="1.000000000" b="0.262745098" g="0.290196078" r="0.301960784"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Washer" uid="JFX*:*33ebf10ae9ba9d0a6bc05f85">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>0.00134782664</Mass>
+            <CenterOfMass>-0.001150000 0.000000000 0.000000000 </CenterOfMass>
+            <Inertia>0.000000088 0.000000045 0.000000045 -0.000000000 -0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Washer.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.737254902" g="0.756862745" r="0.776470588"/>
+            <Diffuse a="1.000000000" b="0.737254902" g="0.756862745" r="0.776470588"/>
+            <Specular a="1.000000000" b="0.737254902" g="0.756862745" r="0.776470588"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Hex_Bolt_M10" uid="JFb*:*33ebf10ae9ba9d0a6bc05f85">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>0.0157239444</Mass>
+            <CenterOfMass>0.026264336 -0.000000000 -0.000000000 </CenterOfMass>
+            <Inertia>0.000000290 0.000005960 0.000005960 0.000000000 -0.000000000 -0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Hex_Bolt_M10.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.737254902" g="0.756862745" r="0.776470588"/>
+            <Diffuse a="1.000000000" b="0.737254902" g="0.756862745" r="0.776470588"/>
+            <Specular a="1.000000000" b="0.737254902" g="0.756862745" r="0.776470588"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Hex_Flange_Nut_M10" uid="JFf*:*33ebf10ae9ba9d0a6bc05f85">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>0.00454135597</Mass>
+            <CenterOfMass>0.000000000 0.005774878 -0.000000000 </CenterOfMass>
+            <Inertia>0.000000153 0.000000223 0.000000153 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Hex_Flange_Nut_M10.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.737254902" g="0.756862745" r="0.776470588"/>
+            <Diffuse a="1.000000000" b="0.737254902" g="0.756862745" r="0.776470588"/>
+            <Specular a="1.000000000" b="0.737254902" g="0.756862745" r="0.776470588"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Hex_Flange_Screw_M6" uid="JFj*:*33ebf10ae9ba9d0a6bc05f85">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>0.00211084592</Mass>
+            <CenterOfMass>0.006879497 -0.000000000 0.000000000 </CenterOfMass>
+            <Inertia>0.000000022 0.000000052 0.000000052 -0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Hex_Flange_Screw_M6.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.737254902" g="0.756862745" r="0.776470588"/>
+            <Diffuse a="1.000000000" b="0.737254902" g="0.756862745" r="0.776470588"/>
+            <Specular a="1.000000000" b="0.737254902" g="0.756862745" r="0.776470588"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Oval_Head_M4" uid="JFn*:*33ebf10ae9ba9d0a6bc05f85">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>0.000435070869</Mass>
+            <CenterOfMass>0.002664617 -0.000000045 0.000000012 </CenterOfMass>
+            <Inertia>0.000000003 0.000000003 0.000000003 0.000000000 0.000000000 -0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Oval_Head_M4.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.737254902" g="0.756862745" r="0.776470588"/>
+            <Diffuse a="1.000000000" b="0.737254902" g="0.756862745" r="0.776470588"/>
+            <Specular a="1.000000000" b="0.737254902" g="0.756862745" r="0.776470588"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Hex_Screw_M10" uid="JFr*:*33ebf10ae9ba9d0a6bc05f85">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>0.0104494515</Mass>
+            <CenterOfMass>0.015291636 0.000000000 0.000000001 </CenterOfMass>
+            <Inertia>0.000000229 0.000001453 0.000001453 0.000000000 0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Hex_Screw_M10.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.737254902" g="0.756862745" r="0.776470588"/>
+            <Diffuse a="1.000000000" b="0.737254902" g="0.756862745" r="0.776470588"/>
+            <Specular a="1.000000000" b="0.737254902" g="0.756862745" r="0.776470588"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Hex_Nut_M10" uid="JFv*:*33ebf10ae9ba9d0a6bc05f85">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>0.00452294488</Mass>
+            <CenterOfMass>0.000000043 0.005343612 0.000000010 </CenterOfMass>
+            <Inertia>0.000000139 0.000000200 0.000000139 0.000000000 -0.000000000 0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Hex_Nut_M10.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.737254902" g="0.756862745" r="0.776470588"/>
+            <Diffuse a="1.000000000" b="0.737254902" g="0.756862745" r="0.776470588"/>
+            <Specular a="1.000000000" b="0.737254902" g="0.756862745" r="0.776470588"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Hex_Screw_M5" uid="JFz*:*33ebf10ae9ba9d0a6bc05f85">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>0.000941894268</Mass>
+            <CenterOfMass>0.004646664 -0.000000000 0.000000000 </CenterOfMass>
+            <Inertia>0.000000006 0.000000013 0.000000013 -0.000000000 0.000000000 -0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Hex_Screw_M5.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.737254902" g="0.756862745" r="0.776470588"/>
+            <Diffuse a="1.000000000" b="0.737254902" g="0.756862745" r="0.776470588"/>
+            <Specular a="1.000000000" b="0.737254902" g="0.756862745" r="0.776470588"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="AilBrk_L" uid="JF3*:*33ebf10ae9ba9d0a6bc05f85">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>0.0348370922</Mass>
+            <CenterOfMass>0.054645432 0.002510920 0.004529440 </CenterOfMass>
+            <Inertia>0.000008985 0.000019218 0.000010384 0.000000040 -0.000001434 -0.000000025 </Inertia>
+         </MassProperties>
+         <GeometryFile name="AilBrk_L.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.839215686" g="0.682352941" r="0.541176471"/>
+            <Diffuse a="1.000000000" b="0.839215686" g="0.682352941" r="0.541176471"/>
+            <Specular a="1.000000000" b="0.839215686" g="0.682352941" r="0.541176471"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Mount_BrkL" uid="JF7*:*33ebf10ae9ba9d0a6bc05f85">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>0.180341278</Mass>
+            <CenterOfMass>0.011853012 0.005646675 -0.002780515 </CenterOfMass>
+            <Inertia>0.000091917 0.000221621 0.000189279 0.000004872 0.000047122 -0.000016957 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Mount_BrkL.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.262745098" g="0.290196078" r="0.301960784"/>
+            <Diffuse a="1.000000000" b="0.262745098" g="0.290196078" r="0.301960784"/>
+            <Specular a="1.000000000" b="0.262745098" g="0.290196078" r="0.301960784"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Piston" uid="KF/D*:*33ebf10ae9ba9d0a6bc05f85">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>0.119349979</Mass>
+            <CenterOfMass>0.000002266 0.000009785 -0.075715558 </CenterOfMass>
+            <Inertia>0.000388386 0.000389411 0.000003112 -0.000000060 -0.000000019 0.000000007 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Piston.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.654901961" g="0.800000000" r="0.921568627"/>
+            <Diffuse a="1.000000000" b="0.654901961" g="0.800000000" r="0.921568627"/>
+            <Specular a="1.000000000" b="0.654901961" g="0.800000000" r="0.921568627"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+      <Part name="Cylinder" uid="JHD*:*33ebf10ae9ba9d0a6bc05f85">
+         <ModelUnits length="meter" mass="kilogram"/>
+         <MassProperties>
+            <Mass>0.369781213</Mass>
+            <CenterOfMass>0.002141869 0.000000000 0.000000000 </CenterOfMass>
+            <Inertia>0.000044365 0.001073947 0.001074633 -0.000000000 0.000000000 -0.000000000 </Inertia>
+         </MassProperties>
+         <GeometryFile name="Cylinder.step" type="STEP"/>
+         <VisualProperties>
+            <Ambient a="1.000000000" b="0.164705882" g="0.572549020" r="0.909803922"/>
+            <Diffuse a="1.000000000" b="0.164705882" g="0.572549020" r="0.909803922"/>
+            <Specular a="1.000000000" b="0.164705882" g="0.572549020" r="0.909803922"/>
+            <Emissive a="1" b="0" g="0" r="0"/>
+            <Shininess>0.5</Shininess>
+         </VisualProperties>
+      </Part>
+   </Parts>
+</SimscapeMultibodyImportXML>
