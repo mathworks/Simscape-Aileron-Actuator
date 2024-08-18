@@ -4,7 +4,7 @@ component MyResistor
 % where R is the nominal resistance at the reference temperature in ohms
 % and alpha is the temperature coefficient.
 
-% Copyright 2005-2023 The MathWorks, Inc.
+% Copyright 2005-2024 The MathWorks, Inc.
 
   nodes
     p = foundation.electrical.electrical; % +:left

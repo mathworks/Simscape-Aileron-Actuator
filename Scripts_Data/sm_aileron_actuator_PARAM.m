@@ -1,4 +1,4 @@
-% Copyright 2018-2023 The MathWorks, Inc.
+% Copyright 2018-2024 The MathWorks, Inc.
 
 AAC_Param.Act.Id.Spr.k  = 10000;
 AAC_Param.Act.Id.Spr.l0 = -0.076/3; 

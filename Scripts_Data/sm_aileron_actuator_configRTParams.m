@@ -1,6 +1,6 @@
 function sm_aileron_actuator_configRTParams(mdl,variant)
 % Add Simscape run-time parameters to Aileron example
-% Copyright 2013-2023 The MathWorks, Inc.
+% Copyright 2013-2024 The MathWorks, Inc.
 
 if strcmp(variant,'Hydraulic')
     %% Define Simulink.Parameter objects

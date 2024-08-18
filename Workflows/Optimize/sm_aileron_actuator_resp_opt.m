@@ -1,4 +1,4 @@
-% Copyright 2013-2023 The MathWorks(TM), Inc.
+% Copyright 2013-2024 The MathWorks(TM), Inc.
 
 % Initial values
 Kp = 0.03;

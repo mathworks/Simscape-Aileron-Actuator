@@ -1,5 +1,4 @@
-% Copyright 2014-2023 The MathWorks, Inc.
-HS_Valve_Max_Opening=0.002;
-HS_Valve_Max_Area=200;     
-HS_Piston_Area_A=0.0174;   
-HS_Piston_Area_B=0.0108;
+% Copyright 2012-2024 The MathWorks, Inc.
+HS_Valve_Max_Area = 384.01;
+HS_Piston_Area_A  = 0.02268;
+HS_Piston_Area_B  = 0.01525;

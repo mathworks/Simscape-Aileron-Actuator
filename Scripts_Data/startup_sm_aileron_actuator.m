@@ -1,5 +1,5 @@
 % Startup script for project Aileron_Act.prj
-% Copyright 2018-2023 The MathWorks, Inc.
+% Copyright 2018-2024 The MathWorks, Inc.
 
 AAC_HomeDir = pwd;
 

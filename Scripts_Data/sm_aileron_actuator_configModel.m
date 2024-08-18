@@ -1,5 +1,5 @@
 function sm_aileron_actuator_configModel(modelname,config_name)
-% Copyright 2012-2023 The MathWorks(TM), Inc.
+% Copyright 2012-2024 The MathWorks(TM), Inc.
 
 f    = Simulink.FindOptions('FollowLinks',1,'LookUnderMasks','none');
 actuate_path = getfullname(Simulink.findBlocks(bdroot,'Name','Actuator',f));
