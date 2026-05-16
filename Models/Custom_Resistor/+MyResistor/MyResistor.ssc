@@ -4,7 +4,7 @@ component MyResistor
 % where R is the nominal resistance at the reference temperature in ohms
 % and alpha is the temperature coefficient.
 
-% Copyright 2005-2025 The MathWorks, Inc.
+% Copyright 2005-2026 The MathWorks, Inc.
 
   nodes
     p = foundation.electrical.electrical; % +:left
@@ -20,15 +20,11 @@ component MyResistor
     T0 = { 300, 'K' };      % Reference Temperature
     T  = { 300, 'K' };      % Current Temperature
   end
-  function setup
-    if R < 0
-        pm_error('simscape:GreaterThanOrEqualToZero','Resistance')
-    end
-  end
   branches
       i: p.i -> n.i;
   end    
   equations
+    assert(R>=0)
     v == p.v - n.v;
     v == R*(1+a*(T-T0))*i;
   end
